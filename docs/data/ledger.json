@@ -1,0 +1,203 @@
+{
+  "snapshots": {
+    "2026-10-19": [
+      {
+        "date": "2026-10-19",
+        "symbol": "2881",
+        "name": "富邦金",
+        "score": 55,
+        "action": "HOLD_WATCH",
+        "price": 158.5,
+        "stop": 150.36,
+        "target": 170.71,
+        "reasons": [
+          "收盤價 > MA20 > MA60",
+          "RSI14位於50至75",
+          "收盤位於60日價格區間上半部"
+        ],
+        "exit_reasons": [],
+        "ma20": 154.55,
+        "rsi": 68.09,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2882",
+        "name": "國泰金",
+        "score": 55,
+        "action": "HOLD_WATCH",
+        "price": 114.5,
+        "stop": 108.79,
+        "target": 123.07,
+        "reasons": [
+          "收盤價 > MA20 > MA60",
+          "RSI14位於50至75",
+          "收盤位於60日價格區間上半部"
+        ],
+        "exit_reasons": [],
+        "ma20": 112.3,
+        "rsi": 61.76,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2357",
+        "name": "華碩",
+        "score": 45,
+        "action": "EXIT_WATCH",
+        "price": 970.0,
+        "stop": 919.57,
+        "target": 1045.64,
+        "reasons": [
+          "成交量 > 20日均量1.3倍",
+          "RSI14位於50至75",
+          "收盤位於60日價格區間上半部"
+        ],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "放量下跌"
+        ],
+        "ma20": 971.05,
+        "rsi": 54.55,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2330",
+        "name": "台積電",
+        "score": 10,
+        "action": "EXIT_WATCH",
+        "price": 2420.0,
+        "stop": 2344.29,
+        "target": 2533.57,
+        "reasons": [
+          "收盤位於60日價格區間上半部"
+        ],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 2493.0,
+        "rsi": 40.68,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "3711",
+        "name": "日月光投控",
+        "score": 10,
+        "action": "EXIT_WATCH",
+        "price": 670.0,
+        "stop": 607.86,
+        "target": 763.21,
+        "reasons": [
+          "收盤位於60日價格區間上半部"
+        ],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "RSI14低於45"
+        ],
+        "ma20": 701.9,
+        "rsi": 43.32,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2303",
+        "name": "聯電",
+        "score": 0,
+        "action": "EXIT_WATCH",
+        "price": 131.5,
+        "stop": 119.57,
+        "target": 149.39,
+        "reasons": [],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 149.43,
+        "rsi": 22.89,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2308",
+        "name": "台達電",
+        "score": 0,
+        "action": "EXIT_WATCH",
+        "price": 1640.0,
+        "stop": 1460.71,
+        "target": 1908.93,
+        "reasons": [],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 1844.75,
+        "rsi": 32.69,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2317",
+        "name": "鴻海",
+        "score": 0,
+        "action": "EXIT_WATCH",
+        "price": 239.5,
+        "stop": 228.36,
+        "target": 256.21,
+        "reasons": [],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 248.95,
+        "rsi": 37.21,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2382",
+        "name": "廣達",
+        "score": 0,
+        "action": "EXIT_WATCH",
+        "price": 314.5,
+        "stop": 300.29,
+        "target": 335.82,
+        "reasons": [],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 331.77,
+        "rsi": 23.91,
+        "sample_days": 96
+      },
+      {
+        "date": "2026-10-19",
+        "symbol": "2454",
+        "name": "聯發科",
+        "score": 0,
+        "action": "EXIT_WATCH",
+        "price": 4205.0,
+        "stop": 3835.71,
+        "target": 4758.93,
+        "reasons": [],
+        "exit_reasons": [
+          "收盤跌破MA20",
+          "收盤跌破MA60",
+          "RSI14低於45"
+        ],
+        "ma20": 4774.25,
+        "rsi": 20.33,
+        "sample_days": 96
+      }
+    ]
+  },
+  "trades": []
+}
