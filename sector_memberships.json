@@ -1,0 +1,6131 @@
+{
+  "schema_version": "1.1",
+  "source_name": "各族群分類.csv",
+  "source_sha256": "f61c339e4dc8eb39d7ffd5371ba180b5cd16194048ce4e3b11d8f6da7644ba4d",
+  "source_encoding": "cp950",
+  "market_verification": "OFFICIAL_CURRENT_REGISTRY_PLUS_DELISTING_NOTICES",
+  "groups": [
+    {
+      "name": "餐飲",
+      "symbols": [
+        "2732",
+        "2723",
+        "2754",
+        "2727",
+        "2755",
+        "2729"
+      ]
+    },
+    {
+      "name": "觀光",
+      "symbols": [
+        "2743",
+        "2745",
+        "5706",
+        "2736",
+        "2731",
+        "2748"
+      ]
+    },
+    {
+      "name": "電子商務",
+      "symbols": [
+        "5321",
+        "8454",
+        "8044",
+        "2614",
+        "6741"
+      ]
+    },
+    {
+      "name": "電子支付",
+      "symbols": [
+        "6763",
+        "6180",
+        "3687"
+      ]
+    },
+    {
+      "name": "遊戲相關",
+      "symbols": [
+        "3293",
+        "5263",
+        "6111",
+        "4946",
+        "5478",
+        "3086"
+      ]
+    },
+    {
+      "name": "安全監控",
+      "symbols": [
+        "3454",
+        "3128",
+        "5251",
+        "3356"
+      ]
+    },
+    {
+      "name": "軍工",
+      "symbols": [
+        "4572",
+        "1342",
+        "4541",
+        "8033",
+        "8222",
+        "2634",
+        "6829"
+      ]
+    },
+    {
+      "name": "美容美膚",
+      "symbols": [
+        "4137",
+        "4190",
+        "6523",
+        "6666",
+        "6703"
+      ]
+    },
+    {
+      "name": "一般生技",
+      "symbols": [
+        "6472",
+        "4162",
+        "6446",
+        "1795",
+        "4746",
+        "1760",
+        "4743",
+        "6547",
+        "1783",
+        "4116",
+        "3205",
+        "6589",
+        "4164",
+        "4147"
+      ]
+    },
+    {
+      "name": "再生醫療",
+      "symbols": [
+        "6550",
+        "6712",
+        "6461",
+        "3224",
+        "1784",
+        "6662"
+      ]
+    },
+    {
+      "name": "隱形眼鏡",
+      "symbols": [
+        "6782",
+        "6747",
+        "6491",
+        "1565"
+      ]
+    },
+    {
+      "name": "醫材",
+      "symbols": [
+        "4129"
+      ]
+    },
+    {
+      "name": "內嵌式利基型記憶體",
+      "symbols": [
+        "3006",
+        "5351",
+        "6485"
+      ]
+    },
+    {
+      "name": "記憶體製造",
+      "symbols": [
+        "2344",
+        "2408",
+        "2337"
+      ]
+    },
+    {
+      "name": "記憶體通路",
+      "symbols": [
+        "3260",
+        "5489",
+        "8271",
+        "2451",
+        "8088",
+        "8299",
+        "4967"
+      ]
+    },
+    {
+      "name": "矽晶圓",
+      "symbols": [
+        "5483",
+        "6488",
+        "6182",
+        "3532"
+      ]
+    },
+    {
+      "name": "第三代半導體",
+      "symbols": [
+        "3707",
+        "3016",
+        "4934"
+      ]
+    },
+    {
+      "name": "IC設計",
+      "symbols": [
+        "2454",
+        "3034",
+        "2379"
+      ]
+    },
+    {
+      "name": "神盾集團，幾乎一起動",
+      "symbols": [
+        "6462",
+        "8054",
+        "6684",
+        "6243",
+        "6695",
+        "6237"
+      ]
+    },
+    {
+      "name": "IC矽智財",
+      "symbols": [
+        "3035",
+        "3443",
+        "3661",
+        "3529",
+        "6533",
+        "6643"
+      ]
+    },
+    {
+      "name": "驅動IC",
+      "symbols": [
+        "3545",
+        "4961",
+        "8016"
+      ]
+    },
+    {
+      "name": "高速傳輸",
+      "symbols": [
+        "5269",
+        "4966",
+        "6756",
+        "2436",
+        "6104",
+        "3588"
+      ]
+    },
+    {
+      "name": "MCU",
+      "symbols": [
+        "4919",
+        "6202",
+        "4952",
+        "2458",
+        "3228",
+        "6494",
+        "5471"
+      ]
+    },
+    {
+      "name": "IC封測",
+      "symbols": [
+        "3711",
+        "8150",
+        "2369",
+        "2449",
+        "3264"
+      ]
+    },
+    {
+      "name": "面板三喵",
+      "symbols": [
+        "6116",
+        "2409",
+        "3481"
+      ]
+    },
+    {
+      "name": "伺服器",
+      "symbols": [
+        "6669",
+        "3017",
+        "2368",
+        "8155"
+      ]
+    },
+    {
+      "name": "CCL銅箔基板",
+      "symbols": [
+        "2383",
+        "6213",
+        "6274"
+      ]
+    },
+    {
+      "name": "散熱",
+      "symbols": [
+        "3653",
+        "3324",
+        "2421",
+        "3483",
+        "3071",
+        "6230",
+        "3512",
+        "2354"
+      ]
+    },
+    {
+      "name": "ABF",
+      "symbols": [
+        "3037",
+        "3189",
+        "8046"
+      ]
+    },
+    {
+      "name": "PA砷化鎵",
+      "symbols": [
+        "3105",
+        "2455",
+        "8086"
+      ]
+    },
+    {
+      "name": "MOSFET",
+      "symbols": [
+        "8261",
+        "6435",
+        "3317"
+      ]
+    },
+    {
+      "name": "再生晶圓",
+      "symbols": [
+        "1560",
+        "8028",
+        "3583"
+      ]
+    },
+    {
+      "name": "台積電設備",
+      "symbols": [
+        "6532",
+        "2404",
+        "3680",
+        "6196",
+        "2338",
+        "3374"
+      ]
+    },
+    {
+      "name": "PC品牌廠",
+      "symbols": [
+        "2357",
+        "2377",
+        "2353"
+      ]
+    },
+    {
+      "name": "AI組裝廠",
+      "symbols": [
+        "2382",
+        "2324",
+        "3231",
+        "2356"
+      ]
+    },
+    {
+      "name": "CoWoS封裝",
+      "symbols": [
+        "8227",
+        "2330"
+      ]
+    },
+    {
+      "name": "PCB",
+      "symbols": [
+        "4958",
+        "2313",
+        "3044",
+        "5469"
+      ]
+    },
+    {
+      "name": "被動元件",
+      "symbols": [
+        "2327",
+        "2492",
+        "3026",
+        "2375"
+      ]
+    },
+    {
+      "name": "電子紙",
+      "symbols": [
+        "3141",
+        "8069",
+        "6143"
+      ]
+    },
+    {
+      "name": "LED",
+      "symbols": [
+        "6706",
+        "3714",
+        "2393",
+        "3624",
+        "2340",
+        "2426",
+        "4956"
+      ]
+    },
+    {
+      "name": "光通訊",
+      "symbols": [
+        "4979",
+        "4977",
+        "3081",
+        "3163",
+        "6442",
+        "3234",
+        "6451"
+      ]
+    },
+    {
+      "name": "網通",
+      "symbols": [
+        "5388",
+        "3558",
+        "2345",
+        "3596",
+        "3704",
+        "6470"
+      ]
+    },
+    {
+      "name": "小網通",
+      "symbols": [
+        "4906",
+        "3047",
+        "3380",
+        "2419",
+        "5353",
+        "3025"
+      ]
+    },
+    {
+      "name": "低軌道衛星",
+      "symbols": [
+        "2314",
+        "6285",
+        "3062",
+        "2312",
+        "3491"
+      ]
+    },
+    {
+      "name": "伺服器導軌",
+      "symbols": [
+        "2059",
+        "6584"
+      ]
+    },
+    {
+      "name": "工業電腦",
+      "symbols": [
+        "2395",
+        "8114",
+        "8050",
+        "3022",
+        "6245",
+        "5258",
+        "3594",
+        "4916",
+        "8076",
+        "3479"
+      ]
+    },
+    {
+      "name": "機殼",
+      "symbols": [
+        "8210",
+        "3693",
+        "3013"
+      ]
+    },
+    {
+      "name": "車用零組件",
+      "symbols": [
+        "1522",
+        "1568",
+        "1524",
+        "3162",
+        "1319",
+        "2230"
+      ]
+    },
+    {
+      "name": "車用電池",
+      "symbols": [
+        "4739",
+        "4721",
+        "6509",
+        "1723",
+        "8215"
+      ]
+    },
+    {
+      "name": "車用二極體",
+      "symbols": [
+        "3675",
+        "2481",
+        "5425",
+        "8255"
+      ]
+    },
+    {
+      "name": "導線架",
+      "symbols": [
+        "2351",
+        "5285",
+        "6548",
+        "2486"
+      ]
+    },
+    {
+      "name": "連接線",
+      "symbols": [
+        "3526",
+        "3003",
+        "3023",
+        "6279",
+        "3689"
+      ]
+    },
+    {
+      "name": "車用PCB",
+      "symbols": [
+        "2355",
+        "2367",
+        "2402",
+        "3715",
+        "5439"
+      ]
+    },
+    {
+      "name": "觸控IC",
+      "symbols": [
+        "3556",
+        "3014",
+        "2363"
+      ]
+    },
+    {
+      "name": "比特幣與板卡",
+      "symbols": [
+        "2376",
+        "3515",
+        "6150",
+        "2465",
+        "2399",
+        "5386"
+      ]
+    },
+    {
+      "name": "元宇宙",
+      "symbols": [
+        "2498",
+        "2388",
+        "3508",
+        "6118"
+      ]
+    },
+    {
+      "name": "電源供應器",
+      "symbols": [
+        "2308",
+        "2301",
+        "6412"
+      ]
+    },
+    {
+      "name": "貨櫃三雄",
+      "symbols": [
+        "2615",
+        "2609",
+        "2603"
+      ]
+    },
+    {
+      "name": "航空",
+      "symbols": [
+        "2610",
+        "2646",
+        "2618"
+      ]
+    },
+    {
+      "name": "宅配",
+      "symbols": [
+        "2642",
+        "2608"
+      ]
+    },
+    {
+      "name": "太陽能",
+      "symbols": [
+        "6443",
+        "6477",
+        "2406",
+        "6244",
+        "3576",
+        "3276",
+        "3686",
+        "3691"
+      ]
+    },
+    {
+      "name": "風力發電",
+      "symbols": [
+        "3708",
+        "9958",
+        "1609",
+        "1519",
+        "2013",
+        "1513"
+      ]
+    },
+    {
+      "name": "儲能",
+      "symbols": [
+        "6806",
+        "3027",
+        "1529",
+        "8171"
+      ]
+    },
+    {
+      "name": "台塑四寶",
+      "symbols": [
+        "1301",
+        "1303",
+        "1326",
+        "6505"
+      ]
+    },
+    {
+      "name": "二線塑化",
+      "symbols": [
+        "1304",
+        "1308",
+        "1305",
+        "1309"
+      ]
+    },
+    {
+      "name": "電器電纜，用銅比重高",
+      "symbols": [
+        "1605",
+        "1608"
+      ]
+    },
+    {
+      "name": "銅",
+      "symbols": [
+        "2009"
+      ]
+    },
+    {
+      "name": "鋼鐵",
+      "symbols": [
+        "2002",
+        "2030",
+        "2014",
+        "2006",
+        "2038",
+        "2023",
+        "2027"
+      ]
+    },
+    {
+      "name": "特殊鋼鐵",
+      "symbols": [
+        "5009",
+        "1584"
+      ]
+    },
+    {
+      "name": "黃金",
+      "symbols": [
+        "9955",
+        "8390",
+        "1785"
+      ]
+    },
+    {
+      "name": "紙",
+      "symbols": [
+        "1905",
+        "1909",
+        "1904",
+        "1907"
+      ]
+    },
+    {
+      "name": "紡織",
+      "symbols": [
+        "1476",
+        "1477",
+        "1444",
+        "1440",
+        "4406",
+        "8916",
+        "1455"
+      ]
+    },
+    {
+      "name": "充電樁",
+      "symbols": [
+        "6282",
+        "2482",
+        "3046",
+        "3078",
+        "3058",
+        "2457",
+        "6290",
+        "3092"
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "2732",
+      "name": "六角",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2732.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2732.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2723",
+      "name": "美食-KY",
+      "market": "TWSE",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2723.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2723.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2754",
+      "name": "亞洲藏壽司",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2754.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2754.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2727",
+      "name": "王品",
+      "market": "TWSE",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2727.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2727.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2755",
+      "name": "揚秦",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2755.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2755.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2729",
+      "name": "瓦城",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "source_symbols": [
+        "2729.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2729.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2743",
+      "name": "山富",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "2743.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2743.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2745",
+      "name": "五福",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "2745.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2745.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5706",
+      "name": "鳳凰",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "5706.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5706.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2736",
+      "name": "富野",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "2736.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2736.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2731",
+      "name": "雄獅",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "2731.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2731.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2748",
+      "name": "雲品",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "source_symbols": [
+        "2748.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2748.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5321",
+      "name": "美而快",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "source_symbols": [
+        "5321.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5321.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8454",
+      "name": "富邦媒",
+      "market": "TWSE",
+      "groups": [
+        "電子商務"
+      ],
+      "source_symbols": [
+        "8454.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8454.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8044",
+      "name": "網家",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "source_symbols": [
+        "8044.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8044.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2614",
+      "name": "東森",
+      "market": "TWSE",
+      "groups": [
+        "電子商務"
+      ],
+      "source_symbols": [
+        "2614.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2614.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6741",
+      "name": "91APP*-KY",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "source_symbols": [
+        "6741.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6741.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6763",
+      "name": "綠界科技*",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "source_symbols": [
+        "6763.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6763.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6180",
+      "name": "橘子",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "source_symbols": [
+        "6180.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6180.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3687",
+      "name": "歐買尬",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "source_symbols": [
+        "3687.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3687.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3293",
+      "name": "鈊象",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "3293.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3293.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5263",
+      "name": "智崴",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "5263.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5263.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6111",
+      "name": "光聚晶電",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "6111.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6111.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4946",
+      "name": "辣椒",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "4946.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4946.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5478",
+      "name": "智冠",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "5478.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5478.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3086",
+      "name": "華義*",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "source_symbols": [
+        "3086.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3086.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3454",
+      "name": "晶睿",
+      "market": "TWSE",
+      "groups": [
+        "安全監控"
+      ],
+      "source_symbols": [
+        "3454.TW"
+      ],
+      "validation_status": "DELISTED",
+      "normalized_symbol": "3454.TW",
+      "end_date": "2026-03-27",
+      "status_source": "https://www.twse.com.tw/company/suspendListingCsvAndHtml?lang=zh&type=html",
+      "scan_candidate": false,
+      "name_source": "https://www.twse.com.tw/company/suspendListingCsvAndHtml?lang=zh&type=html"
+    },
+    {
+      "symbol": "3128",
+      "name": "昇銳",
+      "market": "TPEx",
+      "groups": [
+        "安全監控"
+      ],
+      "source_symbols": [
+        "3128.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3128.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5251",
+      "name": "天鉞電",
+      "market": "TPEx",
+      "groups": [
+        "安全監控"
+      ],
+      "source_symbols": [
+        "5251.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5251.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3356",
+      "name": "奇偶",
+      "market": "TWSE",
+      "groups": [
+        "安全監控"
+      ],
+      "source_symbols": [
+        "3356.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3356.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4572",
+      "name": "駐龍",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "4572.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4572.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1342",
+      "name": "八貫",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "1342.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1342.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4541",
+      "name": "晟田",
+      "market": "TPEx",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "4541.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4541.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8033",
+      "name": "雷虎",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "8033.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8033.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8222",
+      "name": "寶一",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "8222.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8222.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2634",
+      "name": "漢翔",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "2634.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2634.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6829",
+      "name": "千附精密",
+      "market": "TPEx",
+      "groups": [
+        "軍工"
+      ],
+      "source_symbols": [
+        "6829.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6829.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4137",
+      "name": "麗豐-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "source_symbols": [
+        "4137.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4137.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4190",
+      "name": "佐登-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "source_symbols": [
+        "4190.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4190.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6523",
+      "name": "達爾膚",
+      "market": "TPEx",
+      "groups": [
+        "美容美膚"
+      ],
+      "source_symbols": [
+        "6523.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6523.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6666",
+      "name": "羅麗芬-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "source_symbols": [
+        "6666.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6666.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6703",
+      "name": "軒郁",
+      "market": "TPEx",
+      "groups": [
+        "美容美膚"
+      ],
+      "source_symbols": [
+        "6703.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6703.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6472",
+      "name": "保瑞",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "6472.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6472.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4162",
+      "name": "智擎",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4162.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4162.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6446",
+      "name": "藥華藥",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "6446.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6446.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1795",
+      "name": "美時",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "1795.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1795.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4746",
+      "name": "台耀",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4746.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4746.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1760",
+      "name": "寶齡富錦",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "1760.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1760.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4743",
+      "name": "合一",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4743.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4743.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6547",
+      "name": "高端疫苗",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "6547.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6547.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1783",
+      "name": "和康生",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "1783.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1783.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4116",
+      "name": "明基醫",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4116.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4116.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3205",
+      "name": "佰研",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "3205.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3205.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6589",
+      "name": "台康生技",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "6589.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6589.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4164",
+      "name": "承業醫",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4164.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4164.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4147",
+      "name": "中裕",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "source_symbols": [
+        "4147.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4147.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6550",
+      "name": "北極星藥業-KY",
+      "market": "TWSE",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "6550.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6550.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6712",
+      "name": "長聖",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "6712.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6712.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6461",
+      "name": "益得",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "6461.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6461.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3224",
+      "name": "三顧",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "3224.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3224.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1784",
+      "name": "訊聯",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "1784.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1784.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6662",
+      "name": "樂斯科",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "source_symbols": [
+        "6662.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6662.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6782",
+      "name": "視陽",
+      "market": "TWSE",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "source_symbols": [
+        "6782.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6782.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6747",
+      "name": "亨泰光",
+      "market": "TPEx",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "source_symbols": [
+        "6747.TW"
+      ],
+      "validation_status": "DELISTED",
+      "normalized_symbol": "6747.TW",
+      "end_date": "2025-12-04",
+      "status_source": "https://www.tpex.org.tw/storage/eb_data/11411/11402027051.html",
+      "scan_candidate": false,
+      "name_source": "https://www.tpex.org.tw/storage/eb_data/11411/11402027051.html"
+    },
+    {
+      "symbol": "6491",
+      "name": "晶碩",
+      "market": "TWSE",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "source_symbols": [
+        "6491.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6491.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1565",
+      "name": "精華",
+      "market": "TPEx",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "source_symbols": [
+        "1565.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1565.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4129",
+      "name": "聯合",
+      "market": "TPEx",
+      "groups": [
+        "醫材"
+      ],
+      "source_symbols": [
+        "4129.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4129.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3006",
+      "name": "晶豪科",
+      "market": "TWSE",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "source_symbols": [
+        "3006.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3006.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5351",
+      "name": "鈺創",
+      "market": "TPEx",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "source_symbols": [
+        "5351.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5351.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6485",
+      "name": "點序",
+      "market": "TPEx",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "source_symbols": [
+        "6485.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6485.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2344",
+      "name": "華邦電",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "source_symbols": [
+        "2344.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2344.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2408",
+      "name": "南亞科",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "source_symbols": [
+        "2408.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2408.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2337",
+      "name": "旺宏",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "source_symbols": [
+        "2337.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2337.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3260",
+      "name": "威剛",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "3260.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3260.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5489",
+      "name": "彩富",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "5489.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5489.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8271",
+      "name": "宇瞻",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "8271.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8271.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2451",
+      "name": "創見",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "2451.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2451.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8088",
+      "name": "品安",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "8088.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8088.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8299",
+      "name": "群聯",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "8299.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8299.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4967",
+      "name": "十銓",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "source_symbols": [
+        "4967.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4967.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5483",
+      "name": "中美晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "source_symbols": [
+        "5483.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5483.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6488",
+      "name": "環球晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "source_symbols": [
+        "6488.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6488.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6182",
+      "name": "合晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "source_symbols": [
+        "6182.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6182.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3532",
+      "name": "台勝科",
+      "market": "TWSE",
+      "groups": [
+        "矽晶圓"
+      ],
+      "source_symbols": [
+        "3532.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3532.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3707",
+      "name": "漢磊",
+      "market": "TPEx",
+      "groups": [
+        "第三代半導體"
+      ],
+      "source_symbols": [
+        "3707.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3707.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3016",
+      "name": "嘉晶",
+      "market": "TWSE",
+      "groups": [
+        "第三代半導體"
+      ],
+      "source_symbols": [
+        "3016.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3016.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4934",
+      "name": "太極",
+      "market": "TWSE",
+      "groups": [
+        "第三代半導體"
+      ],
+      "source_symbols": [
+        "4934.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4934.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2454",
+      "name": "聯發科",
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
+      ],
+      "source_symbols": [
+        "2454.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2454.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3034",
+      "name": "聯詠",
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
+      ],
+      "source_symbols": [
+        "3034.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3034.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2379",
+      "name": "瑞昱",
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
+      ],
+      "source_symbols": [
+        "2379.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2379.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6462",
+      "name": "神盾",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "6462.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6462.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8054",
+      "name": "安國",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "8054.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8054.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6684",
+      "name": "安格",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "6684.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6684.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6243",
+      "name": "迅杰",
+      "market": "TWSE",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "6243.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6243.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6695",
+      "name": "芯鼎",
+      "market": "TWSE",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "6695.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6695.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6237",
+      "name": "驊訊",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "source_symbols": [
+        "6237.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6237.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3035",
+      "name": "智原",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "3035.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3035.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3443",
+      "name": "創意",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "3443.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3443.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3661",
+      "name": "世芯-KY",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "3661.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3661.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3529",
+      "name": "力旺",
+      "market": "TPEx",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "3529.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3529.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6533",
+      "name": "晶心科",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "6533.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6533.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6643",
+      "name": "M31",
+      "market": "TPEx",
+      "groups": [
+        "IC矽智財"
+      ],
+      "source_symbols": [
+        "6643.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6643.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3545",
+      "name": "敦泰",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "source_symbols": [
+        "3545.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3545.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4961",
+      "name": "天鈺",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "source_symbols": [
+        "4961.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4961.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8016",
+      "name": "矽創",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "source_symbols": [
+        "8016.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8016.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5269",
+      "name": "祥碩",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "5269.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5269.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4966",
+      "name": "譜瑞-KY",
+      "market": "TPEx",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "4966.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4966.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6756",
+      "name": "威鋒電子",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "6756.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6756.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2436",
+      "name": "偉詮電",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "2436.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2436.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6104",
+      "name": "創惟",
+      "market": "TPEx",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "6104.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6104.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3588",
+      "name": "通嘉",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "source_symbols": [
+        "3588.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3588.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4919",
+      "name": "新唐",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "4919.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4919.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6202",
+      "name": "盛群",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "6202.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6202.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4952",
+      "name": "凌通",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "4952.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4952.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2458",
+      "name": "義隆",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "2458.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2458.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3228",
+      "name": "金麗科",
+      "market": "TPEx",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "3228.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3228.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6494",
+      "name": "九齊",
+      "market": "TPEx",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "6494.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6494.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5471",
+      "name": "松翰",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "source_symbols": [
+        "5471.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5471.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3711",
+      "name": "日月光投控",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "source_symbols": [
+        "3711.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3711.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8150",
+      "name": "南茂",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "source_symbols": [
+        "8150.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8150.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2369",
+      "name": "菱生",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "source_symbols": [
+        "2369.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2369.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2449",
+      "name": "京元電子",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "source_symbols": [
+        "2449.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2449.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3264",
+      "name": "欣銓",
+      "market": "TPEx",
+      "groups": [
+        "IC封測"
+      ],
+      "source_symbols": [
+        "3264.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3264.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6116",
+      "name": "彩晶",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "source_symbols": [
+        "6116.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6116.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2409",
+      "name": "友達",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "source_symbols": [
+        "2409.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2409.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3481",
+      "name": "群創",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "source_symbols": [
+        "3481.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3481.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6669",
+      "name": "緯穎",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "source_symbols": [
+        "6669.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6669.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3017",
+      "name": "奇鋐",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "source_symbols": [
+        "3017.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3017.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2368",
+      "name": "金像電",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "source_symbols": [
+        "2368.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2368.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8155",
+      "name": "博智",
+      "market": "TPEx",
+      "groups": [
+        "伺服器"
+      ],
+      "source_symbols": [
+        "8155.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8155.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2383",
+      "name": "台光電",
+      "market": "TWSE",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "source_symbols": [
+        "2383.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2383.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6213",
+      "name": "聯茂",
+      "market": "TWSE",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "source_symbols": [
+        "6213.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6213.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6274",
+      "name": "台燿",
+      "market": "TPEx",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "source_symbols": [
+        "6274.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6274.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3653",
+      "name": "健策",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "3653.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3653.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3324",
+      "name": "雙鴻",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "3324.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3324.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2421",
+      "name": "建準",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "2421.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2421.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3483",
+      "name": "力致",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "3483.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3483.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3071",
+      "name": "協禧",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "3071.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3071.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6230",
+      "name": "尼得科超眾",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "6230.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6230.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3512",
+      "name": "皇龍",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "3512.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3512.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2354",
+      "name": "鴻準",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "source_symbols": [
+        "2354.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2354.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3037",
+      "name": "欣興",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "source_symbols": [
+        "3037.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3037.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "source_symbols": [
+        "3189.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3189.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8046",
+      "name": "南電",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "source_symbols": [
+        "8046.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8046.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3105",
+      "name": "穩懋",
+      "market": "TPEx",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "source_symbols": [
+        "3105.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3105.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2455",
+      "name": "全新",
+      "market": "TWSE",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "source_symbols": [
+        "2455.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2455.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8086",
+      "name": "宏捷科",
+      "market": "TPEx",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "source_symbols": [
+        "8086.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8086.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8261",
+      "name": "富鼎",
+      "market": "TWSE",
+      "groups": [
+        "MOSFET"
+      ],
+      "source_symbols": [
+        "8261.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8261.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6435",
+      "name": "大中",
+      "market": "TPEx",
+      "groups": [
+        "MOSFET"
+      ],
+      "source_symbols": [
+        "6435.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6435.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3317",
+      "name": "尼克森",
+      "market": "TPEx",
+      "groups": [
+        "MOSFET"
+      ],
+      "source_symbols": [
+        "3317.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3317.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1560",
+      "name": "中砂",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "source_symbols": [
+        "1560.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1560.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8028",
+      "name": "昇陽半導體",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "source_symbols": [
+        "8028.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8028.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3583",
+      "name": "辛耘",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "source_symbols": [
+        "3583.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3583.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6532",
+      "name": "瑞耘",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "6532.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6532.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2404",
+      "name": "漢唐",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "2404.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2404.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3680",
+      "name": "家登",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "3680.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3680.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6196",
+      "name": "帆宣",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "6196.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6196.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2338",
+      "name": "光罩",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "2338.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2338.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3374",
+      "name": "精材",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "source_symbols": [
+        "3374.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3374.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2357",
+      "name": "華碩",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "source_symbols": [
+        "2357.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2357.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2377",
+      "name": "微星",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "source_symbols": [
+        "2377.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2377.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2353",
+      "name": "宏碁",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "source_symbols": [
+        "2353.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2353.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2382",
+      "name": "廣達",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "source_symbols": [
+        "2382.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2382.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2324",
+      "name": "仁寶",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "source_symbols": [
+        "2324.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2324.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3231",
+      "name": "緯創",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "source_symbols": [
+        "3231.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3231.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2356",
+      "name": "英業達",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "source_symbols": [
+        "2356.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2356.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8227",
+      "name": "巨有科技",
+      "market": "TPEx",
+      "groups": [
+        "CoWoS封裝"
+      ],
+      "source_symbols": [
+        "8227.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8227.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2330",
+      "name": "台積電",
+      "market": "TWSE",
+      "groups": [
+        "CoWoS封裝"
+      ],
+      "source_symbols": [
+        "2330.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2330.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4958",
+      "name": "臻鼎-KY",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "source_symbols": [
+        "4958.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4958.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2313",
+      "name": "華通",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "source_symbols": [
+        "2313.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2313.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3044",
+      "name": "健鼎",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "source_symbols": [
+        "3044.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3044.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5469",
+      "name": "瀚宇博",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "source_symbols": [
+        "5469.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5469.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2327",
+      "name": "國巨*",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "source_symbols": [
+        "2327.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2327.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2492",
+      "name": "華新科",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "source_symbols": [
+        "2492.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2492.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3026",
+      "name": "禾伸堂",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "source_symbols": [
+        "3026.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3026.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2375",
+      "name": "凱美",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "source_symbols": [
+        "2375.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2375.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3141",
+      "name": "晶宏",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "source_symbols": [
+        "3141.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3141.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8069",
+      "name": "元太",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "source_symbols": [
+        "8069.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8069.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6143",
+      "name": "振曜",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "source_symbols": [
+        "6143.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6143.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6706",
+      "name": "惠特",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "6706.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6706.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3714",
+      "name": "富采",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "3714.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3714.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2393",
+      "name": "億光",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "2393.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2393.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3624",
+      "name": "光頡",
+      "market": "TPEx",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "3624.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3624.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2340",
+      "name": "台亞",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "2340.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2340.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2426",
+      "name": "鼎元",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "2426.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2426.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4956",
+      "name": "光鋐",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "source_symbols": [
+        "4956.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4956.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4979",
+      "name": "華星光",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "4979.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4979.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4977",
+      "name": "眾達-KY",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "4977.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4977.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3081",
+      "name": "聯亞",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "3081.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3081.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3163",
+      "name": "波若威",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "3163.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3163.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6442",
+      "name": "光聖",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "6442.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6442.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3234",
+      "name": "光環",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "3234.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3234.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6451",
+      "name": "訊芯-KY",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "source_symbols": [
+        "6451.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6451.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5388",
+      "name": "中磊",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "5388.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5388.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3558",
+      "name": "神準",
+      "market": "TPEx",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "3558.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3558.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2345",
+      "name": "智邦",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "2345.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2345.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3596",
+      "name": "智易",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "3596.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3596.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3704",
+      "name": "合勤控",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "3704.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3704.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6470",
+      "name": "宇智",
+      "market": "TPEx",
+      "groups": [
+        "網通"
+      ],
+      "source_symbols": [
+        "6470.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6470.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4906",
+      "name": "正文",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "4906.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4906.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3047",
+      "name": "訊舟",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "3047.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3047.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3380",
+      "name": "明泰",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "3380.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3380.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2419",
+      "name": "仲琦",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "2419.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2419.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5353",
+      "name": "台林",
+      "market": "TPEx",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "5353.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5353.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3025",
+      "name": "星通",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "source_symbols": [
+        "3025.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3025.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2314",
+      "name": "台揚",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "source_symbols": [
+        "2314.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2314.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6285",
+      "name": "啟碁",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "source_symbols": [
+        "6285.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6285.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3062",
+      "name": "建漢",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "source_symbols": [
+        "3062.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3062.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2312",
+      "name": "金寶",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "source_symbols": [
+        "2312.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2312.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3491",
+      "name": "昇達科",
+      "market": "TPEx",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "source_symbols": [
+        "3491.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3491.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2059",
+      "name": "川湖",
+      "market": "TWSE",
+      "groups": [
+        "伺服器導軌"
+      ],
+      "source_symbols": [
+        "2059.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2059.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6584",
+      "name": "南俊國際",
+      "market": "TPEx",
+      "groups": [
+        "伺服器導軌"
+      ],
+      "source_symbols": [
+        "6584.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6584.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2395",
+      "name": "研華",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "2395.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2395.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8114",
+      "name": "振樺電",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "8114.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8114.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8050",
+      "name": "廣積",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "8050.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8050.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3022",
+      "name": "威強電",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "3022.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3022.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6245",
+      "name": "立端",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "6245.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6245.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5258",
+      "name": "虹堡",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "5258.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5258.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3594",
+      "name": "磐儀",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "3594.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3594.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4916",
+      "name": "事欣科",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "4916.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4916.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8076",
+      "name": "伍豐",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "8076.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8076.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3479",
+      "name": "安勤",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "source_symbols": [
+        "3479.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3479.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8210",
+      "name": "勤誠",
+      "market": "TWSE",
+      "groups": [
+        "機殼"
+      ],
+      "source_symbols": [
+        "8210.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8210.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3693",
+      "name": "營邦",
+      "market": "TPEx",
+      "groups": [
+        "機殼"
+      ],
+      "source_symbols": [
+        "3693.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3693.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3013",
+      "name": "晟銘電",
+      "market": "TWSE",
+      "groups": [
+        "機殼"
+      ],
+      "source_symbols": [
+        "3013.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3013.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1522",
+      "name": "堤維西",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "1522.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1522.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1568",
+      "name": "倉佑",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "1568.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1568.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1524",
+      "name": "耿鼎",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "1524.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1524.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3162",
+      "name": "精確",
+      "market": "TPEx",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "3162.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3162.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1319",
+      "name": "東陽",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "1319.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1319.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2230",
+      "name": "泰茂",
+      "market": "TPEx",
+      "groups": [
+        "車用零組件"
+      ],
+      "source_symbols": [
+        "2230.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2230.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4739",
+      "name": "康普",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "source_symbols": [
+        "4739.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4739.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4721",
+      "name": "美琪瑪",
+      "market": "TPEx",
+      "groups": [
+        "車用電池"
+      ],
+      "source_symbols": [
+        "4721.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4721.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6509",
+      "name": "聚和",
+      "market": "TPEx",
+      "groups": [
+        "車用電池"
+      ],
+      "source_symbols": [
+        "6509.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6509.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1723",
+      "name": "中碳",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "source_symbols": [
+        "1723.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1723.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8215",
+      "name": "明基材",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "source_symbols": [
+        "8215.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8215.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3675",
+      "name": "德微",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "source_symbols": [
+        "3675.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3675.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2481",
+      "name": "強茂",
+      "market": "TWSE",
+      "groups": [
+        "車用二極體"
+      ],
+      "source_symbols": [
+        "2481.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2481.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5425",
+      "name": "台半",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "source_symbols": [
+        "5425.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5425.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8255",
+      "name": "朋程",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "source_symbols": [
+        "8255.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8255.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2351",
+      "name": "順德",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "source_symbols": [
+        "2351.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2351.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5285",
+      "name": "界霖",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "source_symbols": [
+        "5285.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5285.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6548",
+      "name": "長科*",
+      "market": "TPEx",
+      "groups": [
+        "導線架"
+      ],
+      "source_symbols": [
+        "6548.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6548.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2486",
+      "name": "一詮",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "source_symbols": [
+        "2486.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2486.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3526",
+      "name": "凡甲",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "source_symbols": [
+        "3526.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3526.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3003",
+      "name": "健和興",
+      "market": "TWSE",
+      "groups": [
+        "連接線"
+      ],
+      "source_symbols": [
+        "3003.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3003.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3023",
+      "name": "信邦",
+      "market": "TWSE",
+      "groups": [
+        "連接線"
+      ],
+      "source_symbols": [
+        "3023.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3023.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6279",
+      "name": "胡連",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "source_symbols": [
+        "6279.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6279.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3689",
+      "name": "湧德",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "source_symbols": [
+        "3689.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3689.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2355",
+      "name": "敬鵬",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "source_symbols": [
+        "2355.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2355.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2367",
+      "name": "燿華",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "source_symbols": [
+        "2367.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2367.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2402",
+      "name": "毅嘉",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "source_symbols": [
+        "2402.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2402.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3715",
+      "name": "定穎投控",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "source_symbols": [
+        "3715.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3715.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5439",
+      "name": "高技",
+      "market": "TPEx",
+      "groups": [
+        "車用PCB"
+      ],
+      "source_symbols": [
+        "5439.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5439.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3556",
+      "name": "禾瑞亞",
+      "market": "TPEx",
+      "groups": [
+        "觸控IC"
+      ],
+      "source_symbols": [
+        "3556.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3556.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3014",
+      "name": "聯陽",
+      "market": "TWSE",
+      "groups": [
+        "觸控IC"
+      ],
+      "source_symbols": [
+        "3014.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3014.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2363",
+      "name": "矽統",
+      "market": "TWSE",
+      "groups": [
+        "觸控IC"
+      ],
+      "source_symbols": [
+        "2363.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2363.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2376",
+      "name": "技嘉",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "2376.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2376.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3515",
+      "name": "華擎",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "3515.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3515.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6150",
+      "name": "撼訊",
+      "market": "TPEx",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "6150.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6150.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2465",
+      "name": "麗臺",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "2465.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2465.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2399",
+      "name": "映泰",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "2399.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2399.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5386",
+      "name": "青雲",
+      "market": "TPEx",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "source_symbols": [
+        "5386.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5386.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2498",
+      "name": "宏達電",
+      "market": "TWSE",
+      "groups": [
+        "元宇宙"
+      ],
+      "source_symbols": [
+        "2498.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2498.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2388",
+      "name": "威盛",
+      "market": "TWSE",
+      "groups": [
+        "元宇宙"
+      ],
+      "source_symbols": [
+        "2388.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2388.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3508",
+      "name": "位速",
+      "market": "TPEx",
+      "groups": [
+        "元宇宙"
+      ],
+      "source_symbols": [
+        "3508.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3508.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6118",
+      "name": "建達",
+      "market": "TPEx",
+      "groups": [
+        "元宇宙"
+      ],
+      "source_symbols": [
+        "6118.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6118.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2308",
+      "name": "台達電",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "source_symbols": [
+        "2308.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2308.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2301",
+      "name": "光寶科",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "source_symbols": [
+        "2301.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2301.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6412",
+      "name": "群電",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "source_symbols": [
+        "6412.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6412.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2615",
+      "name": "萬海",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "source_symbols": [
+        "2615.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2615.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2609",
+      "name": "陽明",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "source_symbols": [
+        "2609.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2609.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2603",
+      "name": "長榮",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "source_symbols": [
+        "2603.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2603.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2610",
+      "name": "華航",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "source_symbols": [
+        "2610.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2610.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2646",
+      "name": "星宇航空",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "source_symbols": [
+        "2646.TE"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2646.TW",
+      "correction": "User confirmed 2646.TE is a typo; normalized to 2646.TW. Original source preserved.",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2618",
+      "name": "長榮航",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "source_symbols": [
+        "2618.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2618.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2642",
+      "name": "宅配通",
+      "market": "TWSE",
+      "groups": [
+        "宅配"
+      ],
+      "source_symbols": [
+        "2642.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2642.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2608",
+      "name": "嘉里大榮",
+      "market": "TWSE",
+      "groups": [
+        "宅配"
+      ],
+      "source_symbols": [
+        "2608.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2608.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6443",
+      "name": "元晶",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "6443.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6443.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6477",
+      "name": "安集",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "6477.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6477.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2406",
+      "name": "國碩",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "2406.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2406.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6244",
+      "name": "茂迪",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "6244.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6244.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3576",
+      "name": "聯合再生",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "3576.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3576.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3276",
+      "name": "宇環",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "3276.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3276.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3686",
+      "name": "達能",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "3686.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3686.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3691",
+      "name": "碩禾",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "source_symbols": [
+        "3691.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3691.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3708",
+      "name": "上緯投控",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "3708.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3708.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "9958",
+      "name": "世紀鋼",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "9958.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "9958.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1609",
+      "name": "大亞",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "1609.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1609.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1519",
+      "name": "華城",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "1519.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1519.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2013",
+      "name": "中鋼構",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "2013.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2013.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1513",
+      "name": "中興電",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "source_symbols": [
+        "1513.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1513.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6806",
+      "name": "森崴能源",
+      "market": "TWSE",
+      "groups": [
+        "儲能"
+      ],
+      "source_symbols": [
+        "6806.TW"
+      ],
+      "validation_status": "DELISTED",
+      "normalized_symbol": "6806.TW",
+      "end_date": "2026-06-23",
+      "status_source": "https://www.twse.com.tw/company/suspendListingCsvAndHtml?lang=zh&type=html",
+      "scan_candidate": false,
+      "name_source": "https://www.twse.com.tw/company/suspendListingCsvAndHtml?lang=zh&type=html"
+    },
+    {
+      "symbol": "3027",
+      "name": "盛達",
+      "market": "TWSE",
+      "groups": [
+        "儲能"
+      ],
+      "source_symbols": [
+        "3027.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3027.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1529",
+      "name": "樂事綠能",
+      "market": "TWSE",
+      "groups": [
+        "儲能"
+      ],
+      "source_symbols": [
+        "1529.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1529.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8171",
+      "name": "天宇",
+      "market": "TPEx",
+      "groups": [
+        "儲能"
+      ],
+      "source_symbols": [
+        "8171.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8171.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1301",
+      "name": "台塑",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "source_symbols": [
+        "1301.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1301.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1303",
+      "name": "南亞",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "source_symbols": [
+        "1303.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1303.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1326",
+      "name": "台化",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "source_symbols": [
+        "1326.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1326.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6505",
+      "name": "台塑化",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "source_symbols": [
+        "6505.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6505.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1304",
+      "name": "台聚",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "source_symbols": [
+        "1304.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1304.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1308",
+      "name": "亞聚",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "source_symbols": [
+        "1308.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1308.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1305",
+      "name": "華夏",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "source_symbols": [
+        "1305.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1305.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1309",
+      "name": "台達化",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "source_symbols": [
+        "1309.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1309.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1605",
+      "name": "華新",
+      "market": "TWSE",
+      "groups": [
+        "電器電纜，用銅比重高"
+      ],
+      "source_symbols": [
+        "1605.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1605.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1608",
+      "name": "華榮",
+      "market": "TWSE",
+      "groups": [
+        "電器電纜，用銅比重高"
+      ],
+      "source_symbols": [
+        "1608.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1608.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2009",
+      "name": "第一銅",
+      "market": "TWSE",
+      "groups": [
+        "銅"
+      ],
+      "source_symbols": [
+        "2009.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2009.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2002",
+      "name": "中鋼",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2002.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2002.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2030",
+      "name": "彰源",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2030.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2030.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2014",
+      "name": "中鴻",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2014.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2014.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2006",
+      "name": "東和鋼鐵",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2006.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2006.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2038",
+      "name": "海光",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2038.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2038.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2023",
+      "name": "燁輝",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2023.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2023.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2027",
+      "name": "大成鋼",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "source_symbols": [
+        "2027.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2027.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "5009",
+      "name": "榮剛",
+      "market": "TPEx",
+      "groups": [
+        "特殊鋼鐵"
+      ],
+      "source_symbols": [
+        "5009.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "5009.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1584",
+      "name": "精剛",
+      "market": "TPEx",
+      "groups": [
+        "特殊鋼鐵"
+      ],
+      "source_symbols": [
+        "1584.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1584.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "9955",
+      "name": "佳龍",
+      "market": "TWSE",
+      "groups": [
+        "黃金"
+      ],
+      "source_symbols": [
+        "9955.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "9955.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8390",
+      "name": "金益鼎",
+      "market": "TPEx",
+      "groups": [
+        "黃金"
+      ],
+      "source_symbols": [
+        "8390.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8390.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1785",
+      "name": "光洋科",
+      "market": "TPEx",
+      "groups": [
+        "黃金"
+      ],
+      "source_symbols": [
+        "1785.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1785.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1905",
+      "name": "華紙",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "source_symbols": [
+        "1905.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1905.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1909",
+      "name": "榮成",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "source_symbols": [
+        "1909.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1909.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1904",
+      "name": "正隆",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "source_symbols": [
+        "1904.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1904.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1907",
+      "name": "永豐餘",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "source_symbols": [
+        "1907.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1907.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1476",
+      "name": "儒鴻",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "1476.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1476.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1477",
+      "name": "聚陽",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "1477.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1477.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1444",
+      "name": "力麗",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "1444.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1444.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1440",
+      "name": "南紡",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "1440.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1440.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "4406",
+      "name": "新昕纖",
+      "market": "TPEx",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "4406.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "4406.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "8916",
+      "name": "光隆",
+      "market": "TPEx",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "8916.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "8916.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "1455",
+      "name": "集盛",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "source_symbols": [
+        "1455.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "1455.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6282",
+      "name": "康舒",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "6282.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6282.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2482",
+      "name": "連宇",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "2482.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2482.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3046",
+      "name": "建碁",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "3046.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3046.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3078",
+      "name": "僑威",
+      "market": "TPEx",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "3078.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3078.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3058",
+      "name": "立德",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "3058.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3058.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "2457",
+      "name": "飛宏",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "2457.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "2457.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "6290",
+      "name": "良維",
+      "market": "TPEx",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "6290.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "6290.TW",
+      "name_source": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O",
+      "registry_date": "1151019",
+      "scan_candidate": true
+    },
+    {
+      "symbol": "3092",
+      "name": "鴻碩",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "source_symbols": [
+        "3092.TW"
+      ],
+      "validation_status": "CURRENT_REGISTRY_MATCH",
+      "normalized_symbol": "3092.TW",
+      "name_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "registry_date": "1151018",
+      "scan_candidate": true
+    }
+  ],
+  "verified_at": "2026-10-19T14:45:55.818028+00:00",
+  "registry_dates": {
+    "TWSE": "1151018",
+    "TPEx": "1151019"
+  }
+}

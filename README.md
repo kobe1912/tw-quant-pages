@@ -1,57 +1,88 @@
-# 台股六策略研究站 · research-v2.1
+# 台股六策略＋族群研究站 · 永豐 Shioaji 版
 
-已接入六個日線價格型態辨識器與篩選介面。研究候選不等於有效買進訊號。沒有下單功能，尚未實作完整持倉、資金與交易成本回測引擎；停損與目標為參考欄位，持倉規則詳見 STRATEGY_SPEC.md。
+版本research-v3-sinopac。六策略辨識保留，行情來源改為永豐金證券Shioaji SDK；339檔名單匹配股票、73個原始族群已接入。這是唯讀行情研究工具，不包含券商下單、實際持倉或帳戶查詢。
 
-## 更新步驟
+## 先設定新金鑰，再上傳更新包
 
-1. 先下載備份原GitHub專案。解壓本更新包，直接將scripts、docs、tests與其餘檔案放入原專案根目錄，不要多包一層資料夾。本包不含data快取，不會覆蓋舊行情與交易紀錄。
-2. 包含 `.github/workflows/update.yml`。Mac Finder可用Command+Shift+.顯示隱藏檔。若瀏覽器漏掉它，在GitHub開啟該路徑編輯並貼上本包內容。
-3. **保留線上較新的 docs/data/history.json、ledger.json、signals_v2.json，不用包內快取覆蓋它們。** 建議只上傳 scripts、tests、docs/index.html、docs/app.js、docs/strategy-spec.md、README.md、STRATEGY_SPEC.md、strategy_config.json 與workflow。watchlist無須更動。
-4. Settings → Pages → Build and deployment → Source 改成 **GitHub Actions**。本工作流產生資料後直接發布docs，不再依賴分支推送觸發Pages。
-5. Settings → Actions → General → Workflow permissions設為Read and write permissions（若政策允許）。若github-pages環境有分支限制，需允許main。
-6. Actions → Daily Taiwan Stock Signals → Run workflow，選main。首次自動補16個月歷史；勾bootstrap可強制重抓。
-7. 等update與deploy都綠燈，再開原網站。應出現六策略篩選與research-v2.1；錯誤請看Actions紀錄。
+先撤銷曾貼在對話中的金鑰並重建，不要在公開repo、issue或對話貼新Secret。
 
-週一至週五台灣17:30排程，可能延遲；休市不產生新日線。首次10檔×16個月會比舊版久。TWSE實際擷取與GitHub發布須在Actions驗證，本交付完成離線測試。
+GitHub專案 → Settings → Secrets and variables → Actions → Repository secrets → New repository secret，建立：
 
-## 六策略
+| Name | Secret內容 |
+|---|---|
+| SINOPAC_API_KEY | 你重建的永豐API Key |
+| SINOPAC_SECRET_KEY | 對應Secret Key |
 
-|代碼|規則|方向|
-|---|---|---|
-|S1|多頭MA20回測收回|多|
-|S2|20日箱體＋均線壓縮＋放量突破|多|
-|S3|已確認W底突破頸線|多|
-|S4|箱底止跌至箱頂|多|
-|S5|假跌破收復後下一日確認|多／高風險|
-|S6|M右頭收黑轉弱|空／高風險|
+這兩項是Secrets，不是一般Variables，也不是Environment protection設定。若找不到設定，需repo管理權限。金鑰權限以行情唯讀為原則；本程式不呼叫交易API。
 
-S3修正：一倍W底型態目標搭配底部停損，原1.5R門檻無法合理成立，改獨立0.8R研究門檻，並非已驗證優勢。其餘複雜子型態仍待開發。
+## 更新上傳
 
-## 目前功能限制
+1. 解壓本包，將內部檔案放到原tw-quant-pages根目錄，不要另包一層資料夾。本包不含docs/data，既有行情、ledger與先前快照不被覆蓋。
+2. 上傳scripts、tests、docs中的程式與規格、watchlist.json、sector_memberships.json、strategy_config.json、requirements.txt、README.md、STRATEGY_SPEC.md、.gitignore。
+3. 特別更新 `.github/workflows/update.yml`：在GitHub打開該路徑，按鉛筆，將本包同名檔內容完整取代。Windows檔案總管可顯示「隱藏的項目」，Mac用Command+Shift+.。
+4. Settings → Pages → Source保持GitHub Actions。Actions工作流程權限需允許讀寫；github-pages環境允許main發布。
+5. 提交後工作流程可能自動啟動，不要再修改同批檔案；若缺金鑰，它會明確失敗且不發布半成品。
 
-- 快取每檔96根，少於250根。Actions初始化成功後才可能產生候選。
-- STOCK_DAY為原始未還原日線，尚未接入除權息還原因子、歷史交易狀態及交易日曆校驗。因此型態命中也只顯示DATA_MISSING研究候選，可執行訊號固定0。這不是判斷市場沒有機會。
-- 目前實作六策略辨識與前瞻觀察快照；要提供有效訊號與績效，還需校驗後行情、成本及完整撮合／持倉回測引擎。改config的execution_enabled不會繞過檢查或開始下單。
-- 僅watchlist上市普通股，非全市場；未加入上櫃行情與XQ族群。
-- S6沒有借券可得性，僅供空方觀察。V3.3分數只作背景。
+## 建議先跑一次連線測試
 
-## 資料保存
+Actions → Daily Taiwan Stock Signals → Run workflow → main：勾選connection_only，執行。
 
-- docs/data/ledger.json原樣保留舊版次日收盤模擬，不沿用為六策略績效。
-- docs/data/signals_v2.json首次線上更新才建立；保留觀察當時時間，不回填歷史冒充前瞻。
-- latest.json由程式產生，不手動維護。
-- legacy_v33.py只沿用背景分數；update.py不執行舊交易模型。
+成功時會只顯示connection=OK、2330聚合日線筆數與order_calls=0。此模式不更動公開資料、不發布網頁。
 
-## 本機驗證
+若出現LOGIN_FAILED: ShioajiConnectionError，代表尚未連上券商；不是證明Key正確或錯誤。檢查API開通、簽署／權限、IP限制、服務時間與runner連線環境。程式不自動切換正式模式、不反覆登入、不嘗試下單完成券商測試。原先此環境實測登入就出現過此錯誤，GitHub連線仍需你實際驗證。
 
+## 正式讀取與發布
+
+確認連線後，再建立一個Run workflow：**不要勾connection_only**，max_requests先保持80。
+
+- update通過後會存回新資料，deploy發布原GitHub Pages網址。
+- 首次339檔需分批補齊，最多80個查詢範圍／次，每段最多30天；不是80檔。420天初始化約需14–15段／檔，可能需多次執行、跨多日。
+- 每次查詢前檢查官方流量餘額，預留100MiB；不能因進度慢就連續重跑到券商額度耗盡。配額低時等恢復後再續跑，不強制重抓已完成區間。
+- 每日排程台灣週一至五17:30執行一次，可能延遲。未初始化股票依上次嘗試時間輪替，不固定只更新前幾個族群。
+- 首頁會顯示339檔、永豐Shioaji、暖機完成數、已取得行情數、查詢進度。缺資料會清楚標出。
+- 工作流讀main最新版本，資料提交前fetch/rebase後最多3次一般push；不使用force。若同時改了程式或資料衝突，它會停止並要求新Run workflow，不覆蓋遠端資料。
+
+## 資料檔案與口徑
+
+|檔案|用途|
+|---|---|
+|docs/data/sinopac_history.json|永豐分鐘聚合日K快取|
+|docs/data/sinopac_sync.json|各股票補齊游標及查詢狀態|
+|docs/data/sinopac_signals.json|永豐來源前瞻觀察快照|
+|docs/data/latest.json|公開網頁讀取的研究結果|
+|原history.json、ledger.json、signals_v2.json|保留舊版，不拼接到永豐績效|
+
+分鐘K只取09:00–13:30正常時段，日期按官方Python範例時戳處理。量的股／張倍率由成交金額與價格比值核對，不明即拒絕該段。這與原TWSE全日成交統計可能不同，不直接拼接。
+
+所有股票來自當前名單，不是歷史成分表。2646修正為星宇航空；3454晶睿、6747亨泰光、6806森崴能源因官方終止資料排除；原分類關係仍保存。未分類原4檔也保留。
+
+族群平均漲跌與MA20上方比例，僅在該族群所有啟用成員暖機足夠、行情日期相同時顯示。未補齊不排名，也不把缺資料當零報酬。
+
+## 目前仍有的限制
+
+- 改接永豐不代表已完成歷史回測或撮合引擎。績效頁保持尚未開始，不將舊模擬當新績效。
+- 原始行情未完整校驗除權息、交易日曆、暫停交易與借券可得性，仍輸出研究候選，可執行訊號保持0。
+- 即使暖機滿250根，也要確認最新日期及來源口徑。分鐘聚合時間、量倍率應在成功連線後先與券商畫面抽查。
+- GitHub Actions為一次性收盤任務，GitHub Pages不直接連券商，不是常駐盤中推播站。
+- 原始行情是否可公開再散布須依券商／交易所資料授權；本更新不代表取得額外資料再散布權限。
+
+## 本機執行
+
+Python3.12：
 ```
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python scripts/update.py --offline
 node --check docs/app.js
 node tests/test_ui.cjs
-python -m http.server 8000 --directory docs
 ```
+本機連線需在私密環境變數設定兩個Secret；不在終端命令或原始碼填入金鑰。本包沒有.env，也不會要求你傳交易憑證。
 
-offline只用快取，不修改history、ledger及前瞻快照；會更新latest並標OFFLINE_CACHE。正常更新執行 `python scripts/update.py`。
+## 測試範圍
 
-測試涵蓋六策略正反例、pivot確認延遲、未來不改寫訊號、暖機／品質門檻、tick、介面篩選及文字跳脫。未完成真實行情回測與實際瀏覽器視覺檢查。
+已驗證六策略正反例、pivot延遲、無未來資料改寫、缺資料門檻、30天切段、成交量倍率、分鐘聚合、補抓續跑、錯誤保留游標、缺金鑰停止、族群覆蓋與介面篩選。測試使用合成資料，不是實際行情績效。此環境未成功連上永豐，未完成GitHub部署與瀏覽器視覺驗證。
+
+官方文件：
+- https://sinotrade.github.io/tutor/login/
+- https://sinotrade.github.io/tutor/market_data/historical/
+- https://sinotrade.github.io/tutor/limit/

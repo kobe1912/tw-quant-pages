@@ -1,6 +1,6 @@
 """Six causal EOD research baselines. Standard library only; no brokerage orders."""
 import math
-VERSION = 'research-v2.1'
+VERSION = 'research-v3-sinopac'
 CATALOG = [
  ('S1','趨勢回測','MA20回檔站穩','trend_pullback','long',40),
  ('S2','整理突破','壓縮後放量突破','compression_breakout','long',30),
@@ -140,7 +140,7 @@ def scan(rows,symbol,config,asof):
     amounts=[x.get('amount') for x in rows[-21:-1]]
     if len(amounts)!=20 or any(x is None or x<0 for x in amounts): issues.append('缺少20日成交金額')
     elif sum(amounts)/20<config['min_average_amount']: issues.append('20日平均成交金額不足')
-    # Endpoint has no corporate actions/calendar/status service: never silently assert eligibility.
+    # Raw broker bars also require independent corporate-action/calendar/status checks.
     issues.extend(['除權息還原／交易日曆／交易狀態尚未校驗'])
     if error or len(rows)<250: return [],issues
     found=detect_at(rows,len(rows)-1)

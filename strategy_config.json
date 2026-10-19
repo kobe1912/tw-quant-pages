@@ -1,7 +1,12 @@
 {
-  "strategy_version": "research-v2.1",
+  "strategy_version": "research-v3-sinopac",
+  "provider": "SINOPAC_SHIOAJI",
   "min_average_amount": 50000000,
   "warmup_bars": 250,
+  "bootstrap_calendar_days": 420,
+  "max_requests_per_run": 80,
+  "min_request_interval_seconds": 0.5,
+  "min_remaining_bytes": 104857600,
   "execution_enabled": false,
-  "note": "目前僅日線研究掃描；未提供已校驗還原行情、交易日曆、交易狀態及成本模型，禁止自動模擬成交。設定 execution_enabled=true 不會跳過資料檢查，也不會啟動下單。"
+  "note": "唯讀行情。每次最多80次歷史查詢，每段最多30天；以官方usage檢查保留100MiB餘額。中斷後下次續跑，未完成顯示資料不足。"
 }
