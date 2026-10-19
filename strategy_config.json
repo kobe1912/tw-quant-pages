@@ -1,0 +1,7 @@
+{
+  "strategy_version": "research-v2.1",
+  "min_average_amount": 50000000,
+  "warmup_bars": 250,
+  "execution_enabled": false,
+  "note": "目前僅日線研究掃描；未提供已校驗還原行情、交易日曆、交易狀態及成本模型，禁止自動模擬成交。設定 execution_enabled=true 不會跳過資料檢查，也不會啟動下單。"
+}

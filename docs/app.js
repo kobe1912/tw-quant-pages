@@ -1,0 +1,20 @@
+'use strict';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money=n=>n==null?'—':Number(n).toLocaleString('zh-TW',{maximumFractionDigits:2});
+let report=null;
+document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x===b));['signals','portfolio','weekly','method'].forEach(id=>$(id).classList.toggle('hidden',id!==b.dataset.tab));});
+function candidate(s){return `<div class="detail"><strong>${esc(s.strategy_id)} · ${esc(s.name)}</strong> <span class="pill">${s.direction==='short'?'空方觀察':'研究候選'}</span><p>${s.status==='CONFLICT'?'多空衝突，暫停新增部位':'必要資料未校驗，尚非有效進場訊號'}</p><ul>${s.reasons.map(v=>`<li>${esc(v)}</li>`).join('')}</ul><small>結構停損 ${money(s.stop_price)} · ${s.target_price?'型態目標 '+money(s.target_price):'2R減半／追蹤退出'} · ${s.high_risk?'高風險 · ':''}尚未回測</small></div>`;}
+function draw(){const d=report;if(!d)return;const strategy=$('strategy').value, direction=$('direction').value, mode=$('filter').value;
+ const list=d.stocks.filter(s=>{const found=s.signals.filter(x=>(!strategy||x.strategy_id===strategy)&&(!direction||x.direction===direction));return (!strategy&&!direction||found.length)&&(mode!=='candidates'||found.length);});
+ $('cards').innerHTML=list.map(s=>`<article class="panel"><div class="row"><div><b>${esc(s.name)} ${esc(s.symbol)}</b><div class="muted">${esc(s.date||'無行情')} · 收盤 ${money(s.price)}</div></div><div class="right"><b>${money(s.legacy_score)}<small>/100</small></b><div class="muted">舊版背景分數</div></div></div>${s.signals.filter(x=>(!strategy||x.strategy_id===strategy)&&(!direction||x.direction===direction)).map(candidate).join('')||'<p class="muted">目前沒有策略候選；不強制推薦。</p>'}<details><summary>資料品質 · ${s.sample_days}/250 根暖機${s.issues.length?' · 待補齊':''}</summary><ul>${s.issues.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></details></article>`).join('')||'<div class="panel">此篩選沒有符合項目。可切換「全部股票」查看暖機與缺資料原因。</div>'; }
+async function boot(){try{const r=await fetch('./data/latest.json?v='+Date.now());if(!r.ok)throw Error('行情資料尚未產生');const d=await r.json();if(d.schema_version!=='2.0')throw Error('新舊資料版本不同，請執行新版Actions');report=d;
+ $('meta').textContent=`行情 ${d.asof||'無'} · ${d.universe}檔 · ${d.strategy_version} · ${d.mode==='OFFLINE_CACHE'?'離線快取／待初始化':'收盤研究'} · 更新 ${new Date(d.generated_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})}`;
+ $('stats').innerHTML=[['研究策略',6],['暖機足夠',`${d.data_ready}/${d.universe}`],['研究候選',d.signals.length],['可執行訊號',d.execution_ready]].map(([n,v])=>`<div class="stat">${n}<strong>${v}</strong></div>`).join('');
+ $('strategy').innerHTML='<option value="">全部策略</option>'+d.catalog.map(x=>`<option value="${esc(x.id)}">${esc(x.id)} ${esc(x.name)}</option>`).join('');
+ ['strategy','direction','filter'].forEach(id=>$(id).onchange=draw);draw();
+ $('portfolio').innerHTML='<h2>六策略績效</h2><div class="panel"><b>尚未開始校驗後模擬成交</b><p>'+esc(d.performance.reason)+'</p><p class="muted">舊版ledger.json原樣保留。六策略不沿用舊版次日收盤進場績效，也不把缺資料的研究候選計成成交。</p></div>'+d.catalog.map(x=>`<div class="panel row"><b>${esc(x.id)} ${esc(x.name)}</b><span class="muted">尚未回測 · 勝率／PF／MDD —</span></div>`).join('');
+ $('weekly').innerHTML='<h2>每週回顧</h2><div class="panel">六策略目前無已結案模擬交易。訊號快照自正式線上更新開始保存；不事後回填歷史候選冒充前瞻訊號。</div>';
+ $('method').innerHTML='<h2>策略與資料規則</h2>'+d.catalog.map(x=>`<article class="panel"><b>${esc(x.id)} ${esc(x.name)}</b><p>${esc(x.description)} · ${x.direction==='short'?'空方':'多方'} · 最多${x.max_bars}根</p><small>研究參數，未驗證。<a href="./strategy-spec.md">閱讀完整進出場規格</a></small></article>`).join('')+`<div class="panel"><h3>資料與限制</h3><ul>${d.caveats.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${d.errors.length?'<h3>本次來源錯誤</h3><ul>'+d.errors.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':''}</div>`;
+ }catch(e){$('meta').textContent='資料讀取失敗';$('cards').innerHTML=`<div class="panel">${esc(e.message)}。請到GitHub Actions執行 Daily Taiwan Stock Signals。</div>`;}}
+boot();
