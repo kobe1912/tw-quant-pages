@@ -1,44 +1,62 @@
 name: Daily Taiwan Stock Signals
-
 on:
   workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: '重新抓16個月行情（首次自動執行）'
+        type: boolean
+        default: false
   schedule:
-    # 台灣時間週一至週五 17:30
-    # GitHub Actions 使用 UTC
     - cron: '30 9 * * 1-5'
-
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'tests/**', 'docs/index.html', 'docs/app.js', 'docs/strategy-spec.md', 'watchlist.json', 'strategy_config.json', '.github/workflows/update.yml']
 permissions:
   contents: write
-
+  pages: write
+  id-token: write
 concurrency:
   group: tw-quant-daily-update
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    timeout-minutes: 90
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Run stock strategy
-        run: python scripts/update.py
-
-      - name: Save updated market data
+      - name: Test strategy rules
+        run: python -m unittest discover -s tests -v
+      - name: Generate market research
+        env:
+          BOOTSTRAP: ${{ inputs.bootstrap }}
+        run: |
+          if [ "$BOOTSTRAP" = "true" ]; then
+            python scripts/update.py --bootstrap
+          else
+            python scripts/update.py
+          fi
+      - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update daily stock signals"
+          if ! git diff --cached --quiet; then
+            git commit -m "Update six-strategy research data"
             git push
           fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
