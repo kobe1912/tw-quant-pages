@@ -1,224 +1,367 @@
 {
+  "schema_version": "2.0",
+  "strategy_version": "research-v2.1",
   "asof": "2026-10-19",
-  "generated_at": "2026-10-19T08:40:58.545158+00:00",
+  "generated_at": "2026-10-19T18:04:23.004152+08:00",
+  "mode": "EOD_RESEARCH",
   "universe": 10,
   "data_ready": 10,
-  "signals": [
+  "execution_ready": 0,
+  "catalog": [
     {
-      "date": "2026-10-19",
-      "symbol": "2881",
-      "name": "富邦金",
-      "score": 55,
-      "action": "HOLD_WATCH",
-      "price": 158.5,
-      "stop": 150.36,
-      "target": 170.71,
-      "reasons": [
-        "收盤價 > MA20 > MA60",
-        "RSI14位於50至75",
-        "收盤位於60日價格區間上半部"
-      ],
-      "exit_reasons": [],
-      "ma20": 154.55,
-      "rsi": 68.09,
-      "sample_days": 96
+      "id": "S1",
+      "name": "趨勢回測",
+      "description": "MA20回檔站穩",
+      "family": "trend_pullback",
+      "direction": "long",
+      "max_bars": 40,
+      "backtest_status": "UNVALIDATED"
     },
     {
-      "date": "2026-10-19",
-      "symbol": "2882",
-      "name": "國泰金",
-      "score": 55,
-      "action": "HOLD_WATCH",
-      "price": 114.5,
-      "stop": 108.79,
-      "target": 123.07,
-      "reasons": [
-        "收盤價 > MA20 > MA60",
-        "RSI14位於50至75",
-        "收盤位於60日價格區間上半部"
-      ],
-      "exit_reasons": [],
-      "ma20": 112.3,
-      "rsi": 61.76,
-      "sample_days": 96
+      "id": "S2",
+      "name": "整理突破",
+      "description": "壓縮後放量突破",
+      "family": "compression_breakout",
+      "direction": "long",
+      "max_bars": 30,
+      "backtest_status": "UNVALIDATED"
     },
     {
-      "date": "2026-10-19",
-      "symbol": "2357",
-      "name": "華碩",
-      "score": 45,
-      "action": "EXIT_WATCH",
-      "price": 970.0,
-      "stop": 919.57,
-      "target": 1045.64,
-      "reasons": [
-        "成交量 > 20日均量1.3倍",
-        "RSI14位於50至75",
-        "收盤位於60日價格區間上半部"
-      ],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "放量下跌"
-      ],
-      "ma20": 971.05,
-      "rsi": 54.55,
-      "sample_days": 96
+      "id": "S3",
+      "name": "反轉確認",
+      "description": "W底頸線突破",
+      "family": "reversal_confirmed",
+      "direction": "long",
+      "max_bars": 30,
+      "backtest_status": "UNVALIDATED"
     },
     {
-      "date": "2026-10-19",
+      "id": "S4",
+      "name": "箱型交易",
+      "description": "箱底止跌至箱頂",
+      "family": "range_reversion",
+      "direction": "long",
+      "max_bars": 15,
+      "backtest_status": "UNVALIDATED"
+    },
+    {
+      "id": "S5",
+      "name": "提前反轉",
+      "description": "假跌破收復確認",
+      "family": "early_reversal",
+      "direction": "long",
+      "max_bars": 5,
+      "backtest_status": "UNVALIDATED"
+    },
+    {
+      "id": "S6",
+      "name": "空方反轉",
+      "description": "M右頭轉弱",
+      "family": "short_reversal",
+      "direction": "short",
+      "max_bars": 15,
+      "backtest_status": "UNVALIDATED"
+    }
+  ],
+  "stocks": [
+    {
       "symbol": "2330",
       "name": "台積電",
-      "score": 10,
-      "action": "EXIT_WATCH",
+      "date": "2026-10-19",
       "price": 2420.0,
-      "stop": 2344.29,
-      "target": 2533.57,
-      "reasons": [
-        "收盤位於60日價格區間上半部"
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
-      ],
+      "legacy_score": 10,
       "ma20": 2493.0,
       "rsi": 40.68,
-      "sample_days": 96
+      "signals": []
     },
     {
-      "date": "2026-10-19",
-      "symbol": "3711",
-      "name": "日月光投控",
-      "score": 10,
-      "action": "EXIT_WATCH",
-      "price": 670.0,
-      "stop": 607.86,
-      "target": 763.21,
-      "reasons": [
-        "收盤位於60日價格區間上半部"
-      ],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "RSI14低於45"
-      ],
-      "ma20": 701.9,
-      "rsi": 43.32,
-      "sample_days": 96
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "2303",
-      "name": "聯電",
-      "score": 0,
-      "action": "EXIT_WATCH",
-      "price": 131.5,
-      "stop": 119.57,
-      "target": 149.39,
-      "reasons": [],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
-      ],
-      "ma20": 149.43,
-      "rsi": 22.89,
-      "sample_days": 96
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "2308",
-      "name": "台達電",
-      "score": 0,
-      "action": "EXIT_WATCH",
-      "price": 1640.0,
-      "stop": 1460.71,
-      "target": 1908.93,
-      "reasons": [],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
-      ],
-      "ma20": 1844.75,
-      "rsi": 32.69,
-      "sample_days": 96
-    },
-    {
-      "date": "2026-10-19",
       "symbol": "2317",
       "name": "鴻海",
-      "score": 0,
-      "action": "EXIT_WATCH",
+      "date": "2026-10-19",
       "price": 239.5,
-      "stop": 228.36,
-      "target": 256.21,
-      "reasons": [],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
+      "sample_days": 317,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
+      "legacy_score": 0,
       "ma20": 248.95,
       "rsi": 37.21,
-      "sample_days": 96
+      "signals": []
     },
     {
-      "date": "2026-10-19",
-      "symbol": "2382",
-      "name": "廣達",
-      "score": 0,
-      "action": "EXIT_WATCH",
-      "price": 314.5,
-      "stop": 300.29,
-      "target": 335.82,
-      "reasons": [],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
-      ],
-      "ma20": 331.77,
-      "rsi": 23.91,
-      "sample_days": 96
-    },
-    {
-      "date": "2026-10-19",
       "symbol": "2454",
       "name": "聯發科",
-      "score": 0,
-      "action": "EXIT_WATCH",
+      "date": "2026-10-19",
       "price": 4205.0,
-      "stop": 3835.71,
-      "target": 4758.93,
-      "reasons": [],
-      "exit_reasons": [
-        "收盤跌破MA20",
-        "收盤跌破MA60",
-        "RSI14低於45"
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
+      "legacy_score": 0,
       "ma20": 4774.25,
       "rsi": 20.33,
-      "sample_days": 96
+      "signals": []
+    },
+    {
+      "symbol": "2303",
+      "name": "聯電",
+      "date": "2026-10-19",
+      "price": 131.5,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 0,
+      "ma20": 149.43,
+      "rsi": 22.89,
+      "signals": []
+    },
+    {
+      "symbol": "2882",
+      "name": "國泰金",
+      "date": "2026-10-19",
+      "price": 114.5,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 55,
+      "ma20": 112.3,
+      "rsi": 61.76,
+      "signals": [
+        {
+          "strategy_id": "S6",
+          "strategy_version": "research-v2.1",
+          "family": "short_reversal",
+          "name": "空方反轉",
+          "direction": "short",
+          "signal_date": "2026-10-19",
+          "status": "DATA_MISSING",
+          "stop_price": 117.5,
+          "target_price": 99.0,
+          "estimated_rr": 5.167,
+          "reference_price": 114.5,
+          "atr": 3.1529199706969604,
+          "anchor_time": "2026-09-07",
+          "setup_id": "2882:S6:2026-09-07",
+          "reasons": [
+            "高檔右頭轉弱",
+            "尚未跌破頸線"
+          ],
+          "high_risk": true,
+          "backtest_status": "UNVALIDATED",
+          "entry_plan": "NEXT_SESSION_OPEN",
+          "boundary": 108.0,
+          "symbol": "2882",
+          "execution_eligibility": false,
+          "data_quality": [
+            "除權息還原／交易日曆／交易狀態尚未校驗"
+          ],
+          "action": "RESEARCH_CANDIDATE",
+          "primary": true,
+          "warnings": [
+            "借券可得性未確認；僅空方觀察"
+          ],
+          "stock_name": "國泰金"
+        }
+      ]
+    },
+    {
+      "symbol": "2382",
+      "name": "廣達",
+      "date": "2026-10-19",
+      "price": 314.5,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 0,
+      "ma20": 331.77,
+      "rsi": 23.91,
+      "signals": []
+    },
+    {
+      "symbol": "2308",
+      "name": "台達電",
+      "date": "2026-10-19",
+      "price": 1640.0,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 0,
+      "ma20": 1844.75,
+      "rsi": 32.69,
+      "signals": []
+    },
+    {
+      "symbol": "3711",
+      "name": "日月光投控",
+      "date": "2026-10-19",
+      "price": 670.0,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 10,
+      "ma20": 701.9,
+      "rsi": 43.32,
+      "signals": []
+    },
+    {
+      "symbol": "2881",
+      "name": "富邦金",
+      "date": "2026-10-19",
+      "price": 158.5,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 55,
+      "ma20": 154.55,
+      "rsi": 68.09,
+      "signals": [
+        {
+          "strategy_id": "S6",
+          "strategy_version": "research-v2.1",
+          "family": "short_reversal",
+          "name": "空方反轉",
+          "direction": "short",
+          "signal_date": "2026-10-19",
+          "status": "DATA_MISSING",
+          "stop_price": 161.5,
+          "target_price": 138.5,
+          "estimated_rr": 6.667,
+          "reference_price": 158.5,
+          "atr": 4.304398667456588,
+          "anchor_time": "2026-09-22",
+          "setup_id": "2881:S6:2026-09-22",
+          "reasons": [
+            "高檔右頭轉弱",
+            "尚未跌破頸線"
+          ],
+          "high_risk": true,
+          "backtest_status": "UNVALIDATED",
+          "entry_plan": "NEXT_SESSION_OPEN",
+          "boundary": 147.5,
+          "symbol": "2881",
+          "execution_eligibility": false,
+          "data_quality": [
+            "除權息還原／交易日曆／交易狀態尚未校驗"
+          ],
+          "action": "RESEARCH_CANDIDATE",
+          "primary": true,
+          "warnings": [
+            "借券可得性未確認；僅空方觀察"
+          ],
+          "stock_name": "富邦金"
+        }
+      ]
+    },
+    {
+      "symbol": "2357",
+      "name": "華碩",
+      "date": "2026-10-19",
+      "price": 970.0,
+      "sample_days": 318,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "legacy_score": 45,
+      "ma20": 971.05,
+      "rsi": 54.55,
+      "signals": []
+    }
+  ],
+  "signals": [
+    {
+      "strategy_id": "S6",
+      "strategy_version": "research-v2.1",
+      "family": "short_reversal",
+      "name": "空方反轉",
+      "direction": "short",
+      "signal_date": "2026-10-19",
+      "status": "DATA_MISSING",
+      "stop_price": 117.5,
+      "target_price": 99.0,
+      "estimated_rr": 5.167,
+      "reference_price": 114.5,
+      "atr": 3.1529199706969604,
+      "anchor_time": "2026-09-07",
+      "setup_id": "2882:S6:2026-09-07",
+      "reasons": [
+        "高檔右頭轉弱",
+        "尚未跌破頸線"
+      ],
+      "high_risk": true,
+      "backtest_status": "UNVALIDATED",
+      "entry_plan": "NEXT_SESSION_OPEN",
+      "boundary": 108.0,
+      "symbol": "2882",
+      "execution_eligibility": false,
+      "data_quality": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "action": "RESEARCH_CANDIDATE",
+      "primary": true,
+      "warnings": [
+        "借券可得性未確認；僅空方觀察"
+      ],
+      "stock_name": "國泰金"
+    },
+    {
+      "strategy_id": "S6",
+      "strategy_version": "research-v2.1",
+      "family": "short_reversal",
+      "name": "空方反轉",
+      "direction": "short",
+      "signal_date": "2026-10-19",
+      "status": "DATA_MISSING",
+      "stop_price": 161.5,
+      "target_price": 138.5,
+      "estimated_rr": 6.667,
+      "reference_price": 158.5,
+      "atr": 4.304398667456588,
+      "anchor_time": "2026-09-22",
+      "setup_id": "2881:S6:2026-09-22",
+      "reasons": [
+        "高檔右頭轉弱",
+        "尚未跌破頸線"
+      ],
+      "high_risk": true,
+      "backtest_status": "UNVALIDATED",
+      "entry_plan": "NEXT_SESSION_OPEN",
+      "boundary": 147.5,
+      "symbol": "2881",
+      "execution_eligibility": false,
+      "data_quality": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "action": "RESEARCH_CANDIDATE",
+      "primary": true,
+      "warnings": [
+        "借券可得性未確認；僅空方觀察"
+      ],
+      "stock_name": "富邦金"
     }
   ],
   "errors": [],
   "performance": {
-    "realized": 0,
-    "unrealized": 0,
-    "closed": 0,
-    "open": 0,
-    "win_rate": null,
-    "profit_factor": null,
-    "weekly": [],
-    "trades": []
+    "status": "NOT_STARTED",
+    "trades": [],
+    "reason": "六策略尚無校驗後模擬成交；舊版次日收盤模型已隔離保存，不沿用為六策略績效。"
   },
   "caveats": [
-    "只掃描 watchlist 指定上市股票，非全市場",
-    "每日收盤資料，非即時行情",
-    "以次一交易日收盤價模擬進場，非真實成交",
-    "停損停利採收盤判斷，無盤中成交保證",
-    "模擬損益假設一般股票手續費0.1425%、賣出證交稅0.3%，未計滑價及最低手續費",
-    "未平倉損益未扣未來賣出費稅",
-    "若 API 失敗會保留舊資料並揭露錯誤"
+    "僅掃描watchlist中的上市普通股，非全市場，尚未支援上櫃資料源。",
+    "訊號以完整日K計算；日線不足250根時不輸出策略候選。",
+    "STOCK_DAY為未還原日行情，尚未接入除權息校驗、交易日曆與交易狀態。候選只供研究，非可執行買點。",
+    "借券可得性及成本未確認；S6只供空方觀察。",
+    "V3.3分數只作背景資訊，不是六策略買進門檻。",
+    "未進行歷史回測或實際成交。未公布虛構勝率、PF或MDD。",
+    "初始化會抓16個月行情；API錯誤會保留舊資料並揭露。"
   ]
 }
