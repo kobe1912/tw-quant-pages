@@ -3,18 +3,18 @@
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
   "asof": "2026-10-20",
-  "generated_at": "2026-10-20T16:13:29.178255+08:00",
+  "generated_at": "2026-10-20T18:02:17.877342+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 30,
-  "current_ready": 5,
+  "data_ready": 35,
+  "current_ready": 10,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 36,
+    "initialized": 42,
     "usage": {
-      "remaining_bytes": 441797706,
+      "remaining_bytes": 427304163,
       "limit_bytes": 524288000
     }
   },
@@ -6727,20 +6727,18 @@
       "groups": [
         "風力發電"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-20",
+      "price": 41.25,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 35,
+      "ma20": 41.33,
+      "rsi": 51.16,
+      "daily_return_pct": 0.2430133657351119,
       "signals": []
     },
     {
@@ -7139,20 +7137,17 @@
       "groups": [
         "銅"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-20",
+      "price": 38.6,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 39.62,
+      "rsi": 46.5,
+      "daily_return_pct": -1.9059720457433316,
       "signals": []
     },
     {
@@ -7162,20 +7157,17 @@
       "groups": [
         "鋼鐵"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-20",
+      "price": 19.6,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 25,
+      "ma20": 19.04,
+      "rsi": 68.18,
+      "daily_return_pct": 0.512820512820511,
       "signals": []
     },
     {
@@ -7208,20 +7200,18 @@
       "groups": [
         "鋼鐵"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-20",
+      "price": 16.9,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 15,
+      "ma20": 16.91,
+      "rsi": 51.85,
+      "daily_return_pct": -0.8797653958944385,
       "signals": []
     },
     {
@@ -7231,20 +7221,17 @@
       "groups": [
         "鋼鐵"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-20",
+      "price": 90.7,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 55,
+      "ma20": 87.4,
+      "rsi": 68.79,
+      "daily_return_pct": -1.6268980477223471,
       "signals": []
     },
     {
@@ -7277,20 +7264,20 @@
       "groups": [
         "鋼鐵"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-01-22",
+      "price": 14.75,
+      "sample_days": 102,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：102/250根",
+        "行情日期落後最新股票",
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 14.85,
+      "rsi": 48.39,
+      "daily_return_pct": 0.0,
       "signals": []
     },
     {
@@ -8061,6 +8048,17 @@
   ],
   "sectors": [
     {
+      "name": "銅",
+      "source_members": 1,
+      "active_members": 1,
+      "ready_members": 1,
+      "coverage_pct": 100.0,
+      "complete": true,
+      "average_return_pct": -1.906,
+      "above_ma20_pct": 0.0,
+      "candidate_count": 0
+    },
+    {
       "name": "ABF",
       "source_members": 3,
       "active_members": 3,
@@ -8710,22 +8708,11 @@
       "candidate_count": 0
     },
     {
-      "name": "銅",
-      "source_members": 1,
-      "active_members": 1,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
-      "complete": false,
-      "average_return_pct": null,
-      "above_ma20_pct": null,
-      "candidate_count": 0
-    },
-    {
       "name": "鋼鐵",
       "source_members": 7,
       "active_members": 7,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 3,
+      "coverage_pct": 42.9,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8812,8 +8799,8 @@
       "name": "風力發電",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 16.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
