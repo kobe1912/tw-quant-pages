@@ -1,12 +1,23 @@
 {
-  "schema_version": "2.0",
-  "strategy_version": "research-v2.1",
+  "schema_version": "3.0",
+  "strategy_version": "research-v3-sinopac",
+  "provider": "SINOPAC_SHIOAJI",
   "asof": "2026-10-19",
-  "generated_at": "2026-10-19T22:27:40.727179+08:00",
+  "generated_at": "2026-10-20T10:09:27.086298+08:00",
   "mode": "EOD_RESEARCH",
-  "universe": 10,
-  "data_ready": 10,
+  "universe": 339,
+  "data_ready": 5,
+  "current_ready": 5,
   "execution_ready": 0,
+  "sync": {
+    "requests": 80,
+    "max_requests": 80,
+    "initialized": 6,
+    "usage": {
+      "remaining_bytes": 508012600,
+      "limit_bytes": 524288000
+    }
+  },
   "catalog": [
     {
       "id": "S1",
@@ -65,181 +76,6906 @@
   ],
   "stocks": [
     {
-      "symbol": "2330",
-      "name": "台積電",
-      "date": "2026-10-19",
-      "price": 2420.0,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "symbol": "2732",
+      "name": "六角",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
       ],
-      "legacy_score": 10,
-      "ma20": 2493.0,
-      "rsi": 40.68,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
-      "symbol": "2317",
-      "name": "鴻海",
-      "date": "2026-10-19",
-      "price": 239.5,
-      "sample_days": 317,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "symbol": "2723",
+      "name": "美食-KY",
+      "market": "TWSE",
+      "groups": [
+        "餐飲"
       ],
-      "legacy_score": 0,
-      "ma20": 248.95,
-      "rsi": 37.21,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2754",
+      "name": "亞洲藏壽司",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2727",
+      "name": "王品",
+      "market": "TWSE",
+      "groups": [
+        "餐飲"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2755",
+      "name": "揚秦",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2729",
+      "name": "瓦城",
+      "market": "TPEx",
+      "groups": [
+        "餐飲"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2743",
+      "name": "山富",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2745",
+      "name": "五福",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5706",
+      "name": "鳳凰",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2736",
+      "name": "富野",
+      "market": "TPEx",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2731",
+      "name": "雄獅",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2748",
+      "name": "雲品",
+      "market": "TWSE",
+      "groups": [
+        "觀光"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5321",
+      "name": "美而快",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8454",
+      "name": "富邦媒",
+      "market": "TWSE",
+      "groups": [
+        "電子商務"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8044",
+      "name": "網家",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2614",
+      "name": "東森",
+      "market": "TWSE",
+      "groups": [
+        "電子商務"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6741",
+      "name": "91APP*-KY",
+      "market": "TPEx",
+      "groups": [
+        "電子商務"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6763",
+      "name": "綠界科技*",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6180",
+      "name": "橘子",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3687",
+      "name": "歐買尬",
+      "market": "TPEx",
+      "groups": [
+        "電子支付"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3293",
+      "name": "鈊象",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5263",
+      "name": "智崴",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6111",
+      "name": "光聚晶電",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4946",
+      "name": "辣椒",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5478",
+      "name": "智冠",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3086",
+      "name": "華義*",
+      "market": "TPEx",
+      "groups": [
+        "遊戲相關"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3128",
+      "name": "昇銳",
+      "market": "TPEx",
+      "groups": [
+        "安全監控"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5251",
+      "name": "天鉞電",
+      "market": "TPEx",
+      "groups": [
+        "安全監控"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3356",
+      "name": "奇偶",
+      "market": "TWSE",
+      "groups": [
+        "安全監控"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4572",
+      "name": "駐龍",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1342",
+      "name": "八貫",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4541",
+      "name": "晟田",
+      "market": "TPEx",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8033",
+      "name": "雷虎",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8222",
+      "name": "寶一",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2634",
+      "name": "漢翔",
+      "market": "TWSE",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6829",
+      "name": "千附精密",
+      "market": "TPEx",
+      "groups": [
+        "軍工"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4137",
+      "name": "麗豐-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4190",
+      "name": "佐登-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6523",
+      "name": "達爾膚",
+      "market": "TPEx",
+      "groups": [
+        "美容美膚"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6666",
+      "name": "羅麗芬-KY",
+      "market": "TWSE",
+      "groups": [
+        "美容美膚"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6703",
+      "name": "軒郁",
+      "market": "TPEx",
+      "groups": [
+        "美容美膚"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6472",
+      "name": "保瑞",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4162",
+      "name": "智擎",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6446",
+      "name": "藥華藥",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1795",
+      "name": "美時",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4746",
+      "name": "台耀",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1760",
+      "name": "寶齡富錦",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4743",
+      "name": "合一",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6547",
+      "name": "高端疫苗",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1783",
+      "name": "和康生",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4116",
+      "name": "明基醫",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3205",
+      "name": "佰研",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6589",
+      "name": "台康生技",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4164",
+      "name": "承業醫",
+      "market": "TWSE",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4147",
+      "name": "中裕",
+      "market": "TPEx",
+      "groups": [
+        "一般生技"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6550",
+      "name": "北極星藥業-KY",
+      "market": "TWSE",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6712",
+      "name": "長聖",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6461",
+      "name": "益得",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3224",
+      "name": "三顧",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1784",
+      "name": "訊聯",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6662",
+      "name": "樂斯科",
+      "market": "TPEx",
+      "groups": [
+        "再生醫療"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6782",
+      "name": "視陽",
+      "market": "TWSE",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6491",
+      "name": "晶碩",
+      "market": "TWSE",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1565",
+      "name": "精華",
+      "market": "TPEx",
+      "groups": [
+        "隱形眼鏡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4129",
+      "name": "聯合",
+      "market": "TPEx",
+      "groups": [
+        "醫材"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3006",
+      "name": "晶豪科",
+      "market": "TWSE",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5351",
+      "name": "鈺創",
+      "market": "TPEx",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6485",
+      "name": "點序",
+      "market": "TPEx",
+      "groups": [
+        "內嵌式利基型記憶體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2344",
+      "name": "華邦電",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2408",
+      "name": "南亞科",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2337",
+      "name": "旺宏",
+      "market": "TWSE",
+      "groups": [
+        "記憶體製造"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3260",
+      "name": "威剛",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5489",
+      "name": "彩富",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8271",
+      "name": "宇瞻",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2451",
+      "name": "創見",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8088",
+      "name": "品安",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8299",
+      "name": "群聯",
+      "market": "TPEx",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4967",
+      "name": "十銓",
+      "market": "TWSE",
+      "groups": [
+        "記憶體通路"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5483",
+      "name": "中美晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6488",
+      "name": "環球晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6182",
+      "name": "合晶",
+      "market": "TPEx",
+      "groups": [
+        "矽晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3532",
+      "name": "台勝科",
+      "market": "TWSE",
+      "groups": [
+        "矽晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3707",
+      "name": "漢磊",
+      "market": "TPEx",
+      "groups": [
+        "第三代半導體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3016",
+      "name": "嘉晶",
+      "market": "TWSE",
+      "groups": [
+        "第三代半導體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4934",
+      "name": "太極",
+      "market": "TWSE",
+      "groups": [
+        "第三代半導體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
       "symbol": "2454",
       "name": "聯發科",
-      "date": "2026-10-19",
-      "price": 4205.0,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
       ],
-      "legacy_score": 0,
-      "ma20": 4774.25,
-      "rsi": 20.33,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
-      "symbol": "2303",
-      "name": "聯電",
-      "date": "2026-10-19",
-      "price": 131.5,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "symbol": "3034",
+      "name": "聯詠",
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
       ],
-      "legacy_score": 0,
-      "ma20": 149.43,
-      "rsi": 22.89,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
-      "symbol": "2882",
-      "name": "國泰金",
-      "date": "2026-10-19",
-      "price": 114.5,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "symbol": "2379",
+      "name": "瑞昱",
+      "market": "TWSE",
+      "groups": [
+        "IC設計"
       ],
-      "legacy_score": 55,
-      "ma20": 112.3,
-      "rsi": 61.76,
-      "signals": [
-        {
-          "strategy_id": "S6",
-          "strategy_version": "research-v2.1",
-          "family": "short_reversal",
-          "name": "空方反轉",
-          "direction": "short",
-          "signal_date": "2026-10-19",
-          "status": "DATA_MISSING",
-          "stop_price": 117.5,
-          "target_price": 99.0,
-          "estimated_rr": 5.167,
-          "reference_price": 114.5,
-          "atr": 3.1529199706969604,
-          "anchor_time": "2026-09-07",
-          "setup_id": "2882:S6:2026-09-07",
-          "reasons": [
-            "高檔右頭轉弱",
-            "尚未跌破頸線"
-          ],
-          "high_risk": true,
-          "backtest_status": "UNVALIDATED",
-          "entry_plan": "NEXT_SESSION_OPEN",
-          "boundary": 108.0,
-          "symbol": "2882",
-          "execution_eligibility": false,
-          "data_quality": [
-            "除權息還原／交易日曆／交易狀態尚未校驗"
-          ],
-          "action": "RESEARCH_CANDIDATE",
-          "primary": true,
-          "warnings": [
-            "借券可得性未確認；僅空方觀察"
-          ],
-          "stock_name": "國泰金"
-        }
-      ]
-    },
-    {
-      "symbol": "2382",
-      "name": "廣達",
-      "date": "2026-10-19",
-      "price": 314.5,
-      "sample_days": 318,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
       "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
       ],
-      "legacy_score": 0,
-      "ma20": 331.77,
-      "rsi": 23.91,
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
-      "symbol": "2308",
-      "name": "台達電",
-      "date": "2026-10-19",
-      "price": 1640.0,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "symbol": "6462",
+      "name": "神盾",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
       ],
-      "legacy_score": 0,
-      "ma20": 1844.75,
-      "rsi": 32.69,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8054",
+      "name": "安國",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6684",
+      "name": "安格",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6243",
+      "name": "迅杰",
+      "market": "TWSE",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6695",
+      "name": "芯鼎",
+      "market": "TWSE",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6237",
+      "name": "驊訊",
+      "market": "TPEx",
+      "groups": [
+        "神盾集團，幾乎一起動"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3035",
+      "name": "智原",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3443",
+      "name": "創意",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3661",
+      "name": "世芯-KY",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3529",
+      "name": "力旺",
+      "market": "TPEx",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6533",
+      "name": "晶心科",
+      "market": "TWSE",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6643",
+      "name": "M31",
+      "market": "TPEx",
+      "groups": [
+        "IC矽智財"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3545",
+      "name": "敦泰",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4961",
+      "name": "天鈺",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8016",
+      "name": "矽創",
+      "market": "TWSE",
+      "groups": [
+        "驅動IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5269",
+      "name": "祥碩",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4966",
+      "name": "譜瑞-KY",
+      "market": "TPEx",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6756",
+      "name": "威鋒電子",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2436",
+      "name": "偉詮電",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6104",
+      "name": "創惟",
+      "market": "TPEx",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3588",
+      "name": "通嘉",
+      "market": "TWSE",
+      "groups": [
+        "高速傳輸"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4919",
+      "name": "新唐",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6202",
+      "name": "盛群",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4952",
+      "name": "凌通",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2458",
+      "name": "義隆",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3228",
+      "name": "金麗科",
+      "market": "TPEx",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6494",
+      "name": "九齊",
+      "market": "TPEx",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5471",
+      "name": "松翰",
+      "market": "TWSE",
+      "groups": [
+        "MCU"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
-      "date": "2026-10-19",
-      "price": 670.0,
-      "sample_days": 318,
-      "issues": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
       ],
-      "legacy_score": 10,
-      "ma20": 701.9,
-      "rsi": 43.32,
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     },
     {
-      "symbol": "2881",
-      "name": "富邦金",
+      "symbol": "8150",
+      "name": "南茂",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2369",
+      "name": "菱生",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2449",
+      "name": "京元電子",
+      "market": "TWSE",
+      "groups": [
+        "IC封測"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3264",
+      "name": "欣銓",
+      "market": "TPEx",
+      "groups": [
+        "IC封測"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6116",
+      "name": "彩晶",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2409",
+      "name": "友達",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3481",
+      "name": "群創",
+      "market": "TWSE",
+      "groups": [
+        "面板三喵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6669",
+      "name": "緯穎",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3017",
+      "name": "奇鋐",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2368",
+      "name": "金像電",
+      "market": "TWSE",
+      "groups": [
+        "伺服器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8155",
+      "name": "博智",
+      "market": "TPEx",
+      "groups": [
+        "伺服器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2383",
+      "name": "台光電",
+      "market": "TWSE",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6213",
+      "name": "聯茂",
+      "market": "TWSE",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6274",
+      "name": "台燿",
+      "market": "TPEx",
+      "groups": [
+        "CCL銅箔基板"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3653",
+      "name": "健策",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3324",
+      "name": "雙鴻",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2421",
+      "name": "建準",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3483",
+      "name": "力致",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3071",
+      "name": "協禧",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6230",
+      "name": "尼得科超眾",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3512",
+      "name": "皇龍",
+      "market": "TPEx",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2354",
+      "name": "鴻準",
+      "market": "TWSE",
+      "groups": [
+        "散熱"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3037",
+      "name": "欣興",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8046",
+      "name": "南電",
+      "market": "TWSE",
+      "groups": [
+        "ABF"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3105",
+      "name": "穩懋",
+      "market": "TPEx",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2455",
+      "name": "全新",
+      "market": "TWSE",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8086",
+      "name": "宏捷科",
+      "market": "TPEx",
+      "groups": [
+        "PA砷化鎵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8261",
+      "name": "富鼎",
+      "market": "TWSE",
+      "groups": [
+        "MOSFET"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6435",
+      "name": "大中",
+      "market": "TPEx",
+      "groups": [
+        "MOSFET"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3317",
+      "name": "尼克森",
+      "market": "TPEx",
+      "groups": [
+        "MOSFET"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1560",
+      "name": "中砂",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8028",
+      "name": "昇陽半導體",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3583",
+      "name": "辛耘",
+      "market": "TWSE",
+      "groups": [
+        "再生晶圓"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6532",
+      "name": "瑞耘",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2404",
+      "name": "漢唐",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3680",
+      "name": "家登",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6196",
+      "name": "帆宣",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2338",
+      "name": "光罩",
+      "market": "TWSE",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3374",
+      "name": "精材",
+      "market": "TPEx",
+      "groups": [
+        "台積電設備"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2357",
+      "name": "華碩",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2377",
+      "name": "微星",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2353",
+      "name": "宏碁",
+      "market": "TWSE",
+      "groups": [
+        "PC品牌廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2382",
+      "name": "廣達",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2324",
+      "name": "仁寶",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3231",
+      "name": "緯創",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2356",
+      "name": "英業達",
+      "market": "TWSE",
+      "groups": [
+        "AI組裝廠"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8227",
+      "name": "巨有科技",
+      "market": "TPEx",
+      "groups": [
+        "CoWoS封裝"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2330",
+      "name": "台積電",
+      "market": "TWSE",
+      "groups": [
+        "CoWoS封裝"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4958",
+      "name": "臻鼎-KY",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2313",
+      "name": "華通",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3044",
+      "name": "健鼎",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5469",
+      "name": "瀚宇博",
+      "market": "TWSE",
+      "groups": [
+        "PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2327",
+      "name": "國巨*",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2492",
+      "name": "華新科",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3026",
+      "name": "禾伸堂",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2375",
+      "name": "凱美",
+      "market": "TWSE",
+      "groups": [
+        "被動元件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3141",
+      "name": "晶宏",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8069",
+      "name": "元太",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6143",
+      "name": "振曜",
+      "market": "TPEx",
+      "groups": [
+        "電子紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6706",
+      "name": "惠特",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3714",
+      "name": "富采",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2393",
+      "name": "億光",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3624",
+      "name": "光頡",
+      "market": "TPEx",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2340",
+      "name": "台亞",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2426",
+      "name": "鼎元",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4956",
+      "name": "光鋐",
+      "market": "TWSE",
+      "groups": [
+        "LED"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4979",
+      "name": "華星光",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4977",
+      "name": "眾達-KY",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3081",
+      "name": "聯亞",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3163",
+      "name": "波若威",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6442",
+      "name": "光聖",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3234",
+      "name": "光環",
+      "market": "TPEx",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6451",
+      "name": "訊芯-KY",
+      "market": "TWSE",
+      "groups": [
+        "光通訊"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5388",
+      "name": "中磊",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3558",
+      "name": "神準",
+      "market": "TPEx",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2345",
+      "name": "智邦",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3596",
+      "name": "智易",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3704",
+      "name": "合勤控",
+      "market": "TWSE",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6470",
+      "name": "宇智",
+      "market": "TPEx",
+      "groups": [
+        "網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4906",
+      "name": "正文",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3047",
+      "name": "訊舟",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3380",
+      "name": "明泰",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2419",
+      "name": "仲琦",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5353",
+      "name": "台林",
+      "market": "TPEx",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3025",
+      "name": "星通",
+      "market": "TWSE",
+      "groups": [
+        "小網通"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2314",
+      "name": "台揚",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6285",
+      "name": "啟碁",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3062",
+      "name": "建漢",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2312",
+      "name": "金寶",
+      "market": "TWSE",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3491",
+      "name": "昇達科",
+      "market": "TPEx",
+      "groups": [
+        "低軌道衛星"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2059",
+      "name": "川湖",
+      "market": "TWSE",
+      "groups": [
+        "伺服器導軌"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6584",
+      "name": "南俊國際",
+      "market": "TPEx",
+      "groups": [
+        "伺服器導軌"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2395",
+      "name": "研華",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8114",
+      "name": "振樺電",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8050",
+      "name": "廣積",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3022",
+      "name": "威強電",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6245",
+      "name": "立端",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5258",
+      "name": "虹堡",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3594",
+      "name": "磐儀",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4916",
+      "name": "事欣科",
+      "market": "TWSE",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8076",
+      "name": "伍豐",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3479",
+      "name": "安勤",
+      "market": "TPEx",
+      "groups": [
+        "工業電腦"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8210",
+      "name": "勤誠",
+      "market": "TWSE",
+      "groups": [
+        "機殼"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3693",
+      "name": "營邦",
+      "market": "TPEx",
+      "groups": [
+        "機殼"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3013",
+      "name": "晟銘電",
+      "market": "TWSE",
+      "groups": [
+        "機殼"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1522",
+      "name": "堤維西",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1568",
+      "name": "倉佑",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1524",
+      "name": "耿鼎",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3162",
+      "name": "精確",
+      "market": "TPEx",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1319",
+      "name": "東陽",
+      "market": "TWSE",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2230",
+      "name": "泰茂",
+      "market": "TPEx",
+      "groups": [
+        "車用零組件"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4739",
+      "name": "康普",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4721",
+      "name": "美琪瑪",
+      "market": "TPEx",
+      "groups": [
+        "車用電池"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6509",
+      "name": "聚和",
+      "market": "TPEx",
+      "groups": [
+        "車用電池"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1723",
+      "name": "中碳",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8215",
+      "name": "明基材",
+      "market": "TWSE",
+      "groups": [
+        "車用電池"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3675",
+      "name": "德微",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2481",
+      "name": "強茂",
+      "market": "TWSE",
+      "groups": [
+        "車用二極體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5425",
+      "name": "台半",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8255",
+      "name": "朋程",
+      "market": "TPEx",
+      "groups": [
+        "車用二極體"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2351",
+      "name": "順德",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5285",
+      "name": "界霖",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6548",
+      "name": "長科*",
+      "market": "TPEx",
+      "groups": [
+        "導線架"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2486",
+      "name": "一詮",
+      "market": "TWSE",
+      "groups": [
+        "導線架"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3526",
+      "name": "凡甲",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3003",
+      "name": "健和興",
+      "market": "TWSE",
+      "groups": [
+        "連接線"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3023",
+      "name": "信邦",
+      "market": "TWSE",
+      "groups": [
+        "連接線"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6279",
+      "name": "胡連",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3689",
+      "name": "湧德",
+      "market": "TPEx",
+      "groups": [
+        "連接線"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2355",
+      "name": "敬鵬",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2367",
+      "name": "燿華",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2402",
+      "name": "毅嘉",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3715",
+      "name": "定穎投控",
+      "market": "TWSE",
+      "groups": [
+        "車用PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5439",
+      "name": "高技",
+      "market": "TPEx",
+      "groups": [
+        "車用PCB"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3556",
+      "name": "禾瑞亞",
+      "market": "TPEx",
+      "groups": [
+        "觸控IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3014",
+      "name": "聯陽",
+      "market": "TWSE",
+      "groups": [
+        "觸控IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2363",
+      "name": "矽統",
+      "market": "TWSE",
+      "groups": [
+        "觸控IC"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2376",
+      "name": "技嘉",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3515",
+      "name": "華擎",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6150",
+      "name": "撼訊",
+      "market": "TPEx",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2465",
+      "name": "麗臺",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2399",
+      "name": "映泰",
+      "market": "TWSE",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5386",
+      "name": "青雲",
+      "market": "TPEx",
+      "groups": [
+        "比特幣與板卡"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2498",
+      "name": "宏達電",
+      "market": "TWSE",
+      "groups": [
+        "元宇宙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2388",
+      "name": "威盛",
+      "market": "TWSE",
+      "groups": [
+        "元宇宙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3508",
+      "name": "位速",
+      "market": "TPEx",
+      "groups": [
+        "元宇宙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6118",
+      "name": "建達",
+      "market": "TPEx",
+      "groups": [
+        "元宇宙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2308",
+      "name": "台達電",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2301",
+      "name": "光寶科",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6412",
+      "name": "群電",
+      "market": "TWSE",
+      "groups": [
+        "電源供應器"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2615",
+      "name": "萬海",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2609",
+      "name": "陽明",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2603",
+      "name": "長榮",
+      "market": "TWSE",
+      "groups": [
+        "貨櫃三雄"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2610",
+      "name": "華航",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2646",
+      "name": "星宇航空",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2618",
+      "name": "長榮航",
+      "market": "TWSE",
+      "groups": [
+        "航空"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2642",
+      "name": "宅配通",
+      "market": "TWSE",
+      "groups": [
+        "宅配"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2608",
+      "name": "嘉里大榮",
+      "market": "TWSE",
+      "groups": [
+        "宅配"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6443",
+      "name": "元晶",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6477",
+      "name": "安集",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2406",
+      "name": "國碩",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6244",
+      "name": "茂迪",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3576",
+      "name": "聯合再生",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3276",
+      "name": "宇環",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3686",
+      "name": "達能",
+      "market": "TWSE",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3691",
+      "name": "碩禾",
+      "market": "TPEx",
+      "groups": [
+        "太陽能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3708",
+      "name": "上緯投控",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "9958",
+      "name": "世紀鋼",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1609",
+      "name": "大亞",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1519",
+      "name": "華城",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2013",
+      "name": "中鋼構",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1513",
+      "name": "中興電",
+      "market": "TWSE",
+      "groups": [
+        "風力發電"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3027",
+      "name": "盛達",
+      "market": "TWSE",
+      "groups": [
+        "儲能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1529",
+      "name": "樂事綠能",
+      "market": "TWSE",
+      "groups": [
+        "儲能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8171",
+      "name": "天宇",
+      "market": "TPEx",
+      "groups": [
+        "儲能"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1301",
+      "name": "台塑",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
       "date": "2026-10-19",
-      "price": 158.5,
-      "sample_days": 318,
+      "price": 78.2,
+      "sample_days": 279,
       "issues": [
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
+      "provider": "SINOPAC_SHIOAJI",
       "legacy_score": 55,
-      "ma20": 154.55,
-      "rsi": 68.09,
+      "ma20": 72.03,
+      "rsi": 67.58,
+      "daily_return_pct": -4.750304506699132,
+      "signals": []
+    },
+    {
+      "symbol": "1303",
+      "name": "南亞",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "date": "2026-10-19",
+      "price": 303.5,
+      "sample_days": 279,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": 55,
+      "ma20": 276.3,
+      "rsi": 68.04,
+      "daily_return_pct": -1.140065146579805,
+      "signals": []
+    },
+    {
+      "symbol": "1326",
+      "name": "台化",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6505",
+      "name": "台塑化",
+      "market": "TWSE",
+      "groups": [
+        "台塑四寶"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1304",
+      "name": "台聚",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "date": "2026-10-19",
+      "price": 13.15,
+      "sample_days": 279,
+      "issues": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": 55,
+      "ma20": 12.8,
+      "rsi": 58.23,
+      "daily_return_pct": -1.4981273408239626,
+      "signals": []
+    },
+    {
+      "symbol": "1308",
+      "name": "亞聚",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "date": "2026-10-19",
+      "price": 14.35,
+      "sample_days": 279,
+      "issues": [
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": 25,
+      "ma20": 14.45,
+      "rsi": 50.72,
+      "daily_return_pct": -2.3809523809523836,
+      "signals": []
+    },
+    {
+      "symbol": "1305",
+      "name": "華夏",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "date": "2026-10-19",
+      "price": 12.85,
+      "sample_days": 279,
+      "issues": [
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": 55,
+      "ma20": 12.57,
+      "rsi": 61.54,
+      "daily_return_pct": -2.281368821292784,
       "signals": [
         {
           "strategy_id": "S6",
-          "strategy_version": "research-v2.1",
+          "strategy_version": "research-v3-sinopac",
           "family": "short_reversal",
           "name": "空方反轉",
           "direction": "short",
           "signal_date": "2026-10-19",
           "status": "DATA_MISSING",
-          "stop_price": 161.5,
-          "target_price": 138.5,
-          "estimated_rr": 6.667,
-          "reference_price": 158.5,
-          "atr": 4.304398667456588,
-          "anchor_time": "2026-09-22",
-          "setup_id": "2881:S6:2026-09-22",
+          "stop_price": 13.15,
+          "target_price": 10.3,
+          "estimated_rr": 8.5,
+          "reference_price": 12.85,
+          "atr": 0.4399296526264826,
+          "anchor_time": "2026-09-01",
+          "setup_id": "1305:S6:2026-09-01",
           "reasons": [
             "高檔右頭轉弱",
             "尚未跌破頸線"
@@ -247,10 +6983,11 @@
           "high_risk": true,
           "backtest_status": "UNVALIDATED",
           "entry_plan": "NEXT_SESSION_OPEN",
-          "boundary": 147.5,
-          "symbol": "2881",
+          "boundary": 11.7,
+          "symbol": "1305",
           "execution_eligibility": false,
           "data_quality": [
+            "20日平均成交金額不足",
             "除權息還原／交易日曆／交易狀態尚未校驗"
           ],
           "action": "RESEARCH_CANDIDATE",
@@ -258,41 +6995,920 @@
           "warnings": [
             "借券可得性未確認；僅空方觀察"
           ],
-          "stock_name": "富邦金"
+          "stock_name": "華夏",
+          "groups": [
+            "二線塑化"
+          ],
+          "provider": "SINOPAC_SHIOAJI"
         }
       ]
     },
     {
-      "symbol": "2357",
-      "name": "華碩",
-      "date": "2026-10-19",
-      "price": 970.0,
-      "sample_days": 318,
+      "symbol": "1309",
+      "name": "台達化",
+      "market": "TWSE",
+      "groups": [
+        "二線塑化"
+      ],
+      "date": "2026-01-21",
+      "price": 11.7,
+      "sample_days": 102,
       "issues": [
+        "暖機不足：102/250根",
+        "行情日期落後最新股票",
+        "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
-      "legacy_score": 45,
-      "ma20": 971.05,
-      "rsi": 54.55,
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": 55,
+      "ma20": 11.49,
+      "rsi": 60.78,
+      "daily_return_pct": -0.42553191489361764,
+      "signals": []
+    },
+    {
+      "symbol": "1605",
+      "name": "華新",
+      "market": "TWSE",
+      "groups": [
+        "電器電纜，用銅比重高"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1608",
+      "name": "華榮",
+      "market": "TWSE",
+      "groups": [
+        "電器電纜，用銅比重高"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2009",
+      "name": "第一銅",
+      "market": "TWSE",
+      "groups": [
+        "銅"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2002",
+      "name": "中鋼",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2030",
+      "name": "彰源",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2014",
+      "name": "中鴻",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2006",
+      "name": "東和鋼鐵",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2038",
+      "name": "海光",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2023",
+      "name": "燁輝",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2027",
+      "name": "大成鋼",
+      "market": "TWSE",
+      "groups": [
+        "鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "5009",
+      "name": "榮剛",
+      "market": "TPEx",
+      "groups": [
+        "特殊鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1584",
+      "name": "精剛",
+      "market": "TPEx",
+      "groups": [
+        "特殊鋼鐵"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "9955",
+      "name": "佳龍",
+      "market": "TWSE",
+      "groups": [
+        "黃金"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8390",
+      "name": "金益鼎",
+      "market": "TPEx",
+      "groups": [
+        "黃金"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1785",
+      "name": "光洋科",
+      "market": "TPEx",
+      "groups": [
+        "黃金"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1905",
+      "name": "華紙",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1909",
+      "name": "榮成",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1904",
+      "name": "正隆",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1907",
+      "name": "永豐餘",
+      "market": "TWSE",
+      "groups": [
+        "紙"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1476",
+      "name": "儒鴻",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1477",
+      "name": "聚陽",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1444",
+      "name": "力麗",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1440",
+      "name": "南紡",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "4406",
+      "name": "新昕纖",
+      "market": "TPEx",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "8916",
+      "name": "光隆",
+      "market": "TPEx",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "1455",
+      "name": "集盛",
+      "market": "TWSE",
+      "groups": [
+        "紡織"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6282",
+      "name": "康舒",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2482",
+      "name": "連宇",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3046",
+      "name": "建碁",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3078",
+      "name": "僑威",
+      "market": "TPEx",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3058",
+      "name": "立德",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2457",
+      "name": "飛宏",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "6290",
+      "name": "良維",
+      "market": "TPEx",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "3092",
+      "name": "鴻碩",
+      "market": "TWSE",
+      "groups": [
+        "充電樁"
+      ],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2317",
+      "name": "鴻海",
+      "market": "TWSE",
+      "groups": [],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2303",
+      "name": "聯電",
+      "market": "TWSE",
+      "groups": [],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2882",
+      "name": "國泰金",
+      "market": "TWSE",
+      "groups": [],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
+      "signals": []
+    },
+    {
+      "symbol": "2881",
+      "name": "富邦金",
+      "market": "TWSE",
+      "groups": [],
+      "date": null,
+      "price": null,
+      "sample_days": 0,
+      "issues": [
+        "暖機不足：0/250根",
+        "缺少20日成交金額",
+        "除權息還原／交易日曆／交易狀態尚未校驗",
+        "永豐歷史行情尚未初始化"
+      ],
+      "provider": "SINOPAC_SHIOAJI",
+      "legacy_score": null,
+      "ma20": null,
+      "rsi": null,
+      "daily_return_pct": null,
       "signals": []
     }
   ],
   "signals": [
     {
       "strategy_id": "S6",
-      "strategy_version": "research-v2.1",
+      "strategy_version": "research-v3-sinopac",
       "family": "short_reversal",
       "name": "空方反轉",
       "direction": "short",
       "signal_date": "2026-10-19",
       "status": "DATA_MISSING",
-      "stop_price": 117.5,
-      "target_price": 99.0,
-      "estimated_rr": 5.167,
-      "reference_price": 114.5,
-      "atr": 3.1529199706969604,
-      "anchor_time": "2026-09-07",
-      "setup_id": "2882:S6:2026-09-07",
+      "stop_price": 13.15,
+      "target_price": 10.3,
+      "estimated_rr": 8.5,
+      "reference_price": 12.85,
+      "atr": 0.4399296526264826,
+      "anchor_time": "2026-09-01",
+      "setup_id": "1305:S6:2026-09-01",
       "reasons": [
         "高檔右頭轉弱",
         "尚未跌破頸線"
@@ -300,10 +7916,11 @@
       "high_risk": true,
       "backtest_status": "UNVALIDATED",
       "entry_plan": "NEXT_SESSION_OPEN",
-      "boundary": 108.0,
-      "symbol": "2882",
+      "boundary": 11.7,
+      "symbol": "1305",
       "execution_eligibility": false,
       "data_quality": [
+        "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "action": "RESEARCH_CANDIDATE",
@@ -311,57 +7928,831 @@
       "warnings": [
         "借券可得性未確認；僅空方觀察"
       ],
-      "stock_name": "國泰金"
+      "stock_name": "華夏",
+      "groups": [
+        "二線塑化"
+      ],
+      "provider": "SINOPAC_SHIOAJI"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "ABF",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
     },
     {
-      "strategy_id": "S6",
-      "strategy_version": "research-v2.1",
-      "family": "short_reversal",
-      "name": "空方反轉",
-      "direction": "short",
-      "signal_date": "2026-10-19",
-      "status": "DATA_MISSING",
-      "stop_price": 161.5,
-      "target_price": 138.5,
-      "estimated_rr": 6.667,
-      "reference_price": 158.5,
-      "atr": 4.304398667456588,
-      "anchor_time": "2026-09-22",
-      "setup_id": "2881:S6:2026-09-22",
-      "reasons": [
-        "高檔右頭轉弱",
-        "尚未跌破頸線"
-      ],
-      "high_risk": true,
-      "backtest_status": "UNVALIDATED",
-      "entry_plan": "NEXT_SESSION_OPEN",
-      "boundary": 147.5,
-      "symbol": "2881",
-      "execution_eligibility": false,
-      "data_quality": [
-        "除權息還原／交易日曆／交易狀態尚未校驗"
-      ],
-      "action": "RESEARCH_CANDIDATE",
-      "primary": true,
-      "warnings": [
-        "借券可得性未確認；僅空方觀察"
-      ],
-      "stock_name": "富邦金"
+      "name": "AI組裝廠",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "CCL銅箔基板",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "CoWoS封裝",
+      "source_members": 2,
+      "active_members": 2,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "IC封測",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "IC矽智財",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "IC設計",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "LED",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "MCU",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "MOSFET",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "PA砷化鎵",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "PCB",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "PC品牌廠",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "一般生技",
+      "source_members": 14,
+      "active_members": 14,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "二線塑化",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 3,
+      "coverage_pct": 75.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 1
+    },
+    {
+      "name": "伺服器",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "伺服器導軌",
+      "source_members": 2,
+      "active_members": 2,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "低軌道衛星",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "儲能",
+      "source_members": 4,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "元宇宙",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "充電樁",
+      "source_members": 8,
+      "active_members": 8,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "光通訊",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "內嵌式利基型記憶體",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "再生晶圓",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "再生醫療",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "台塑四寶",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 2,
+      "coverage_pct": 50.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "台積電設備",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "太陽能",
+      "source_members": 8,
+      "active_members": 8,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "宅配",
+      "source_members": 2,
+      "active_members": 2,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "安全監控",
+      "source_members": 4,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "導線架",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "小網通",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "工業電腦",
+      "source_members": 10,
+      "active_members": 10,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "散熱",
+      "source_members": 8,
+      "active_members": 8,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "機殼",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "比特幣與板卡",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "特殊鋼鐵",
+      "source_members": 2,
+      "active_members": 2,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "矽晶圓",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "神盾集團，幾乎一起動",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "第三代半導體",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "紙",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "紡織",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "網通",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "美容美膚",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "航空",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "被動元件",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "觀光",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "觸控IC",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "記憶體製造",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "記憶體通路",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "貨櫃三雄",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "車用PCB",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "車用二極體",
+      "source_members": 4,
+      "active_members": 4,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "車用零組件",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "車用電池",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "軍工",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "連接線",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "遊戲相關",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "醫材",
+      "source_members": 1,
+      "active_members": 1,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "銅",
+      "source_members": 1,
+      "active_members": 1,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "鋼鐵",
+      "source_members": 7,
+      "active_members": 7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "隱形眼鏡",
+      "source_members": 4,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "電器電纜，用銅比重高",
+      "source_members": 2,
+      "active_members": 2,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "電子商務",
+      "source_members": 5,
+      "active_members": 5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "電子支付",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "電子紙",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "電源供應器",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "面板三喵",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "風力發電",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "餐飲",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "驅動IC",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "高速傳輸",
+      "source_members": 6,
+      "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "黃金",
+      "source_members": 3,
+      "active_members": 3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
     }
   ],
   "errors": [],
   "performance": {
     "status": "NOT_STARTED",
     "trades": [],
-    "reason": "六策略尚無校驗後模擬成交；舊版次日收盤模型已隔離保存，不沿用為六策略績效。"
+    "reason": "只讀行情與研究候選。完整撮合、成本與持倉回測尚未完成，舊版績效不混入。"
   },
   "caveats": [
-    "僅掃描watchlist中的上市普通股，非全市場，尚未支援上櫃資料源。",
-    "訊號以完整日K計算；日線不足250根時不輸出策略候選。",
-    "STOCK_DAY為未還原日行情，尚未接入除權息校驗、交易日曆與交易狀態。候選只供研究，非可執行買點。",
-    "借券可得性及成本未確認；S6只供空方觀察。",
-    "V3.3分數只作背景資訊，不是六策略買進門檻。",
-    "未進行歷史回測或實際成交。未公布虛構勝率、PF或MDD。",
-    "初始化會抓16個月行情；API錯誤會保留舊資料並揭露。"
+    "行情來源：永豐金證券Shioaji；由分鐘K聚合正常交易時段日K，非盤中即時網站。",
+    "339檔為官方名單匹配的候選股票，含上市／上櫃；3檔終止標的已排除。",
+    "首次初始化分批續跑；不足250根及未同步至最新資料日者不可當完整族群資料。",
+    "每次查詢最多30天，總請求與帳戶流量保留門檻雙重限制。",
+    "原始價格尚未經除權息、完整交易日曆與交易狀態校驗，訊號均為研究候選；不是可執行買點。",
+    "族群平均漲跌與MA20比例僅在該族群所有啟用成員同日完成暖機時顯示；不是已驗證資金動能分數。",
+    "未查詢帳戶資產／持倉，未啟用憑證，未包含任何下單呼叫。"
   ]
 }

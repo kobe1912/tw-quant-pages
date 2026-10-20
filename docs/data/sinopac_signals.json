@@ -1,0 +1,55 @@
+{
+  "strategy_version": "research-v3-sinopac",
+  "provider": "SINOPAC_SHIOAJI",
+  "snapshots": {
+    "2026-10-20": [
+      {
+        "observed_at": "2026-10-20T10:09:27.086298+08:00",
+        "market_date": "2026-10-19",
+        "current_ready": 5,
+        "signals": [
+          {
+            "strategy_id": "S6",
+            "strategy_version": "research-v3-sinopac",
+            "family": "short_reversal",
+            "name": "空方反轉",
+            "direction": "short",
+            "signal_date": "2026-10-19",
+            "status": "DATA_MISSING",
+            "stop_price": 13.15,
+            "target_price": 10.3,
+            "estimated_rr": 8.5,
+            "reference_price": 12.85,
+            "atr": 0.4399296526264826,
+            "anchor_time": "2026-09-01",
+            "setup_id": "1305:S6:2026-09-01",
+            "reasons": [
+              "高檔右頭轉弱",
+              "尚未跌破頸線"
+            ],
+            "high_risk": true,
+            "backtest_status": "UNVALIDATED",
+            "entry_plan": "NEXT_SESSION_OPEN",
+            "boundary": 11.7,
+            "symbol": "1305",
+            "execution_eligibility": false,
+            "data_quality": [
+              "20日平均成交金額不足",
+              "除權息還原／交易日曆／交易狀態尚未校驗"
+            ],
+            "action": "RESEARCH_CANDIDATE",
+            "primary": true,
+            "warnings": [
+              "借券可得性未確認；僅空方觀察"
+            ],
+            "stock_name": "華夏",
+            "groups": [
+              "二線塑化"
+            ],
+            "provider": "SINOPAC_SHIOAJI"
+          }
+        ]
+      }
+    ]
+  }
+}
