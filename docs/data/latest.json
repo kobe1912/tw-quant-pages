@@ -2,19 +2,19 @@
   "schema_version": "3.0",
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
-  "asof": "2026-10-21",
-  "generated_at": "2026-10-21T18:04:24.969584+08:00",
+  "asof": "2026-10-22",
+  "generated_at": "2026-10-22T18:06:48.398808+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 45,
-  "current_ready": 10,
+  "data_ready": 50,
+  "current_ready": 5,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 54,
+    "initialized": 60,
     "usage": {
-      "remaining_bytes": 496162719,
+      "remaining_bytes": 504875812,
       "limit_bytes": 524288000
     }
   },
@@ -1685,20 +1685,17 @@
       "groups": [
         "記憶體製造"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 99.5,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 113.05,
+      "rsi": 24.1,
+      "daily_return_pct": -3.398058252427183,
       "signals": []
     },
     {
@@ -3638,20 +3635,17 @@
       "groups": [
         "台積電設備"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 45.25,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 46.75,
+      "rsi": 43.56,
+      "daily_return_pct": -2.4784482758620663,
       "signals": []
     },
     {
@@ -3776,20 +3770,17 @@
       "groups": [
         "AI組裝廠"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 37.3,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 15,
+      "ma20": 36.49,
+      "rsi": 53.67,
+      "daily_return_pct": -1.061007957559701,
       "signals": []
     },
     {
@@ -3868,20 +3859,17 @@
       "groups": [
         "CoWoS封裝"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 2385.0,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 2485.25,
+      "rsi": 30.77,
+      "daily_return_pct": -1.446280991735538,
       "signals": []
     },
     {
@@ -3918,6 +3906,7 @@
       "price": 240.5,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -3952,6 +3941,7 @@
           "symbol": "2313",
           "execution_eligibility": false,
           "data_quality": [
+            "行情日期落後最新股票",
             "除權息還原／交易日曆／交易狀態尚未校驗"
           ],
           "action": "RESEARCH_CANDIDATE",
@@ -4020,20 +4010,17 @@
       "groups": [
         "被動元件"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 507.0,
+      "sample_days": 279,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 584.45,
+      "rsi": 33.22,
+      "daily_return_pct": -6.457564575645758,
       "signals": []
     },
     {
@@ -4273,20 +4260,19 @@
       "groups": [
         "LED"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-01-23",
+      "price": 27.4,
+      "sample_days": 101,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：101/250根",
+        "行情日期落後最新股票",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 25,
+      "ma20": 27.44,
+      "rsi": 58.62,
+      "daily_return_pct": -1.2612612612612706,
       "signals": []
     },
     {
@@ -4783,6 +4769,7 @@
       "price": 9.2,
       "sample_days": 272,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -4850,6 +4837,7 @@
       "price": 32.6,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -4893,6 +4881,7 @@
       "price": 10080.0,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -5386,6 +5375,7 @@
       "price": 21.6,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -6234,6 +6224,7 @@
       "price": 1625.0,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -7208,6 +7199,7 @@
       "price": 28.9,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -7271,6 +7263,7 @@
       "price": 12.45,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -7315,6 +7308,7 @@
       "price": 49.9,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -7892,6 +7886,7 @@
       "price": 128.0,
       "sample_days": 279,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -7971,6 +7966,7 @@
       "symbol": "2313",
       "execution_eligibility": false,
       "data_quality": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "action": "RESEARCH_CANDIDATE",
@@ -8122,8 +8118,8 @@
       "name": "AI組裝廠",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 25.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8144,8 +8140,8 @@
       "name": "CoWoS封裝",
       "source_members": 2,
       "active_members": 2,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 50.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8232,12 +8228,12 @@
       "name": "PCB",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 1,
-      "coverage_pct": 25.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
-      "candidate_count": 1
+      "candidate_count": 0
     },
     {
       "name": "PC品牌廠",
@@ -8287,8 +8283,8 @@
       "name": "伺服器導軌",
       "source_members": 2,
       "active_members": 2,
-      "ready_members": 1,
-      "coverage_pct": 50.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8298,8 +8294,8 @@
       "name": "低軌道衛星",
       "source_members": 5,
       "active_members": 5,
-      "ready_members": 2,
-      "coverage_pct": 40.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8397,8 +8393,8 @@
       "name": "台積電設備",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 16.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8606,8 +8602,8 @@
       "name": "被動元件",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 25.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8639,8 +8635,8 @@
       "name": "記憶體製造",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 33.3,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8694,8 +8690,8 @@
       "name": "車用零組件",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 1,
-      "coverage_pct": 16.7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8771,8 +8767,8 @@
       "name": "鋼鐵",
       "source_members": 7,
       "active_members": 7,
-      "ready_members": 3,
-      "coverage_pct": 42.9,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8837,8 +8833,8 @@
       "name": "電源供應器",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 1,
-      "coverage_pct": 33.3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
