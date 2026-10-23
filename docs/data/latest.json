@@ -3,18 +3,18 @@
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
   "asof": "2026-10-22",
-  "generated_at": "2026-10-22T18:06:48.398808+08:00",
+  "generated_at": "2026-10-23T18:04:15.787064+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 50,
-  "current_ready": 5,
+  "data_ready": 55,
+  "current_ready": 10,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 60,
+    "initialized": 66,
     "usage": {
-      "remaining_bytes": 504875812,
+      "remaining_bytes": 505928700,
       "limit_bytes": 524288000
     }
   },
@@ -1639,20 +1639,17 @@
       "groups": [
         "記憶體製造"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 154.5,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 169.07,
+      "rsi": 31.11,
+      "daily_return_pct": -3.1347962382445194,
       "signals": []
     },
     {
@@ -3246,20 +3243,17 @@
       "groups": [
         "散熱"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 62.0,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 63.7,
+      "rsi": 36.18,
+      "daily_return_pct": -2.208201892744477,
       "signals": []
     },
     {
@@ -3724,20 +3718,17 @@
       "groups": [
         "PC品牌廠"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 32.45,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 75,
+      "ma20": 31.7,
+      "rsi": 57.89,
+      "daily_return_pct": 0.46439628482974893,
       "signals": []
     },
     {
@@ -4535,20 +4526,17 @@
       "groups": [
         "網通"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 1775.0,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 1953.75,
+      "rsi": 42.51,
+      "daily_return_pct": -2.203856749311295,
       "signals": []
     },
     {
@@ -5599,20 +5587,17 @@
       "groups": [
         "導線架"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-10-22",
+      "price": 196.0,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 212.3,
+      "rsi": 36.59,
+      "daily_return_pct": -4.854368932038833,
       "signals": []
     },
     {
@@ -5806,20 +5791,19 @@
       "groups": [
         "車用PCB"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-01-23",
+      "price": 39.35,
+      "sample_days": 100,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：100/250根",
+        "行情日期落後最新股票",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 85,
+      "ma20": 33.47,
+      "rsi": 80.73,
+      "daily_return_pct": 9.916201117318458,
       "signals": []
     },
     {
@@ -8239,8 +8223,8 @@
       "name": "PC品牌廠",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 33.3,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8437,8 +8421,8 @@
       "name": "導線架",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 25.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8470,8 +8454,8 @@
       "name": "散熱",
       "source_members": 8,
       "active_members": 8,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 12.5,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8569,8 +8553,8 @@
       "name": "網通",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 16.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8635,8 +8619,8 @@
       "name": "記憶體製造",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 1,
-      "coverage_pct": 33.3,
+      "ready_members": 2,
+      "coverage_pct": 66.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
