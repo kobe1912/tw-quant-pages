@@ -2,19 +2,19 @@
   "schema_version": "3.0",
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
-  "asof": "2026-10-30",
-  "generated_at": "2026-10-30T18:19:42.318256+08:00",
+  "asof": "2026-11-02",
+  "generated_at": "2026-11-02T18:28:49.943593+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 85,
+  "data_ready": 90,
   "current_ready": 5,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 102,
+    "initialized": 108,
     "usage": {
-      "remaining_bytes": 510234001,
+      "remaining_bytes": 507178939,
       "limit_bytes": 524288000
     }
   },
@@ -427,20 +427,20 @@
       "groups": [
         "電子商務"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-02-04",
+      "price": 20.8,
+      "sample_days": 102,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：102/250根",
+        "行情日期落後最新股票",
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 21.61,
+      "rsi": 30.59,
+      "daily_return_pct": 2.4630541871921263,
       "signals": []
     },
     {
@@ -2641,6 +2641,7 @@
       "price": 125.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -5571,6 +5572,7 @@
       "price": 139.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -5704,6 +5706,7 @@
       "price": 192.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -6083,6 +6086,7 @@
       "price": 102.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -6117,6 +6121,7 @@
           "symbol": "2465",
           "execution_eligibility": false,
           "data_quality": [
+            "行情日期落後最新股票",
             "除權息還原／交易日曆／交易狀態尚未校驗"
           ],
           "action": "RESEARCH_CANDIDATE",
@@ -6183,20 +6188,17 @@
       "groups": [
         "元宇宙"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-02",
+      "price": 38.6,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 40.77,
+      "rsi": 27.92,
+      "daily_return_pct": -0.5154639175257603,
       "signals": []
     },
     {
@@ -6362,21 +6364,54 @@
       "groups": [
         "貨櫃三雄"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-02",
+      "price": 64.0,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
-      "signals": []
+      "legacy_score": 55,
+      "ma20": 62.07,
+      "rsi": 64.05,
+      "daily_return_pct": 0.7874015748031482,
+      "signals": [
+        {
+          "strategy_id": "S1",
+          "strategy_version": "research-v3-sinopac",
+          "family": "trend_pullback",
+          "name": "趨勢回測",
+          "direction": "long",
+          "signal_date": "2026-11-02",
+          "status": "DATA_MISSING",
+          "stop_price": 61.2,
+          "target_price": null,
+          "estimated_rr": null,
+          "reference_price": 64.0,
+          "atr": 1.899641151844854,
+          "anchor_time": "2026-11-02",
+          "setup_id": "2609:S1:2026-11-02",
+          "reasons": [
+            "MA20/MA60多頭",
+            "回測MA20收紅站回"
+          ],
+          "high_risk": false,
+          "backtest_status": "UNVALIDATED",
+          "entry_plan": "NEXT_SESSION_OPEN",
+          "symbol": "2609",
+          "execution_eligibility": false,
+          "data_quality": [
+            "除權息還原／交易日曆／交易狀態尚未校驗"
+          ],
+          "action": "RESEARCH_CANDIDATE",
+          "primary": true,
+          "stock_name": "陽明",
+          "groups": [
+            "貨櫃三雄"
+          ],
+          "provider": "SINOPAC_SHIOAJI"
+        }
+      ]
     },
     {
       "symbol": "2603",
@@ -6385,20 +6420,17 @@
       "groups": [
         "貨櫃三雄"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-02",
+      "price": 274.5,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 65,
+      "ma20": 254.47,
+      "rsi": 77.63,
+      "daily_return_pct": 1.104972375690605,
       "signals": []
     },
     {
@@ -6408,20 +6440,17 @@
       "groups": [
         "航空"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-02",
+      "price": 20.65,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 35,
+      "ma20": 20.4,
+      "rsi": 58.93,
+      "daily_return_pct": 2.481389578163773,
       "signals": []
     },
     {
@@ -6500,20 +6529,18 @@
       "groups": [
         "宅配"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-02",
+      "price": 28.25,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 28.59,
+      "rsi": 37.04,
+      "daily_return_pct": 0.17730496453900457,
       "signals": []
     },
     {
@@ -7799,6 +7826,7 @@
       "price": 16.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -8215,6 +8243,7 @@
       "symbol": "2465",
       "execution_eligibility": false,
       "data_quality": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "action": "RESEARCH_CANDIDATE",
@@ -8225,6 +8254,41 @@
       "stock_name": "麗臺",
       "groups": [
         "比特幣與板卡"
+      ],
+      "provider": "SINOPAC_SHIOAJI"
+    },
+    {
+      "strategy_id": "S1",
+      "strategy_version": "research-v3-sinopac",
+      "family": "trend_pullback",
+      "name": "趨勢回測",
+      "direction": "long",
+      "signal_date": "2026-11-02",
+      "status": "DATA_MISSING",
+      "stop_price": 61.2,
+      "target_price": null,
+      "estimated_rr": null,
+      "reference_price": 64.0,
+      "atr": 1.899641151844854,
+      "anchor_time": "2026-11-02",
+      "setup_id": "2609:S1:2026-11-02",
+      "reasons": [
+        "MA20/MA60多頭",
+        "回測MA20收紅站回"
+      ],
+      "high_risk": false,
+      "backtest_status": "UNVALIDATED",
+      "entry_plan": "NEXT_SESSION_OPEN",
+      "symbol": "2609",
+      "execution_eligibility": false,
+      "data_quality": [
+        "除權息還原／交易日曆／交易狀態尚未校驗"
+      ],
+      "action": "RESEARCH_CANDIDATE",
+      "primary": true,
+      "stock_name": "陽明",
+      "groups": [
+        "貨櫃三雄"
       ],
       "provider": "SINOPAC_SHIOAJI"
     },
@@ -8443,8 +8507,8 @@
       "name": "MCU",
       "source_members": 7,
       "active_members": 7,
-      "ready_members": 1,
-      "coverage_pct": 14.3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8564,8 +8628,8 @@
       "name": "元宇宙",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 25.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8575,8 +8639,8 @@
       "name": "充電樁",
       "source_members": 8,
       "active_members": 8,
-      "ready_members": 1,
-      "coverage_pct": 12.5,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8663,8 +8727,8 @@
       "name": "宅配",
       "source_members": 2,
       "active_members": 2,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 50.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8685,8 +8749,8 @@
       "name": "導線架",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 1,
-      "coverage_pct": 25.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8740,12 +8804,12 @@
       "name": "比特幣與板卡",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 1,
-      "coverage_pct": 16.7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
-      "candidate_count": 1
+      "candidate_count": 0
     },
     {
       "name": "特殊鋼鐵",
@@ -8839,8 +8903,8 @@
       "name": "航空",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 33.3,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8905,12 +8969,12 @@
       "name": "貨櫃三雄",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 2,
+      "coverage_pct": 66.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
-      "candidate_count": 0
+      "candidate_count": 1
     },
     {
       "name": "車用PCB",
@@ -8927,8 +8991,8 @@
       "name": "車用二極體",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 1,
-      "coverage_pct": 25.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
