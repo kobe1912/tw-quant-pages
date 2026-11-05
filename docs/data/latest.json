@@ -2,19 +2,19 @@
   "schema_version": "3.0",
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
-  "asof": "2026-11-04",
-  "generated_at": "2026-11-04T18:36:35.781461+08:00",
+  "asof": "2026-11-05",
+  "generated_at": "2026-11-05T18:29:49.305567+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 100,
+  "data_ready": 105,
   "current_ready": 5,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 120,
+    "initialized": 126,
     "usage": {
-      "remaining_bytes": 519566147,
+      "remaining_bytes": 517725959,
       "limit_bytes": 524288000
     }
   },
@@ -86,6 +86,7 @@
       "price": 60.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -126,20 +127,18 @@
       "groups": [
         "餐飲"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-05",
+      "price": 62.6,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 20,
+      "ma20": 66.3,
+      "rsi": 14.06,
+      "daily_return_pct": -2.187499999999998,
       "signals": []
     },
     {
@@ -153,6 +152,7 @@
       "price": 243.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -169,20 +169,18 @@
       "groups": [
         "餐飲"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-05",
+      "price": 89.4,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 20,
+      "ma20": 95.38,
+      "rsi": 18.8,
+      "daily_return_pct": -3.7674919268030127,
       "signals": []
     },
     {
@@ -196,6 +194,7 @@
       "price": 151.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -236,20 +235,18 @@
       "groups": [
         "觀光"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-05",
+      "price": 79.8,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 20,
+      "ma20": 84.47,
+      "rsi": 16.3,
+      "daily_return_pct": -1.845018450184499,
       "signals": []
     },
     {
@@ -286,6 +283,7 @@
       "price": 10.15,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -307,6 +305,7 @@
       "price": 139.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -324,20 +323,18 @@
       "groups": [
         "觀光"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-05",
+      "price": 36.75,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 20,
+      "ma20": 38.21,
+      "rsi": 19.7,
+      "daily_return_pct": -1.342281879194629,
       "signals": []
     },
     {
@@ -8004,20 +8001,19 @@
       "name": "國泰金",
       "market": "TWSE",
       "groups": [],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-02-06",
+      "price": 75.7,
+      "sample_days": 101,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：101/250根",
+        "行情日期落後最新股票",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 75.95,
+      "rsi": 41.24,
+      "daily_return_pct": -0.39473684210525883,
       "signals": []
     },
     {
@@ -8025,20 +8021,17 @@
       "name": "富邦金",
       "market": "TWSE",
       "groups": [],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-05",
+      "price": 155.5,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 158.1,
+      "rsi": 41.94,
+      "daily_return_pct": 0.6472491909385036,
       "signals": []
     }
   ],
@@ -9165,8 +9158,8 @@
       "name": "餐飲",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 3,
-      "coverage_pct": 50.0,
+      "ready_members": 2,
+      "coverage_pct": 33.3,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
