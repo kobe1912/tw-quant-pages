@@ -2,19 +2,19 @@
   "schema_version": "3.0",
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
-  "asof": "2026-11-10",
-  "generated_at": "2026-11-10T18:25:46.598429+08:00",
+  "asof": "2026-11-11",
+  "generated_at": "2026-11-11T18:28:26.242143+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 120,
+  "data_ready": 125,
   "current_ready": 5,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 144,
+    "initialized": 150,
     "usage": {
-      "remaining_bytes": 509370532,
+      "remaining_bytes": 513473684,
       "limit_bytes": 524288000
     }
   },
@@ -647,20 +647,18 @@
       "groups": [
         "遊戲相關"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-11",
+      "price": 20.5,
+      "sample_days": 270,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 20,
+      "ma20": 25.07,
+      "rsi": 17.65,
+      "daily_return_pct": -5.092592592592604,
       "signals": []
     },
     {
@@ -2212,6 +2210,7 @@
       "price": 174.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -3215,20 +3214,18 @@
       "groups": [
         "散熱"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-11",
+      "price": 18.85,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 20.84,
+      "rsi": 25.19,
+      "daily_return_pct": 1.3440860215053752,
       "signals": []
     },
     {
@@ -3309,6 +3306,7 @@
       "price": 828.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -3991,6 +3989,7 @@
       "price": 473.5,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -4388,20 +4387,17 @@
       "groups": [
         "光通訊"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-11",
+      "price": 2215.0,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 2373.0,
+      "rsi": 43.04,
+      "daily_return_pct": 4.728132387706863,
       "signals": []
     },
     {
@@ -4666,6 +4662,7 @@
       "price": 13.4,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -4818,20 +4815,18 @@
       "groups": [
         "低軌道衛星"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-11",
+      "price": 18.6,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 21.09,
+      "rsi": 25.15,
+      "daily_return_pct": -3.875968992248058,
       "signals": []
     },
     {
@@ -7805,6 +7800,7 @@
       "price": 50.0,
       "sample_days": 277,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -7822,20 +7818,18 @@
       "groups": [
         "充電樁"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-11",
+      "price": 39.2,
+      "sample_days": 277,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 44.19,
+      "rsi": 17.92,
+      "daily_return_pct": -1.9999999999999907,
       "signals": []
     },
     {
@@ -7913,20 +7907,20 @@
       "groups": [
         "充電樁"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-02-11",
+      "price": 23.15,
+      "sample_days": 100,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：100/250根",
+        "行情日期落後最新股票",
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 10,
+      "ma20": 25.23,
+      "rsi": 40.09,
+      "daily_return_pct": -0.8565310492505529,
       "signals": []
     },
     {
@@ -8372,8 +8366,8 @@
       "name": "ABF",
       "source_members": 3,
       "active_members": 3,
-      "ready_members": 1,
-      "coverage_pct": 33.3,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8427,8 +8421,8 @@
       "name": "IC矽智財",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 1,
-      "coverage_pct": 16.7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8493,8 +8487,8 @@
       "name": "PCB",
       "source_members": 4,
       "active_members": 4,
-      "ready_members": 1,
-      "coverage_pct": 25.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8559,8 +8553,8 @@
       "name": "低軌道衛星",
       "source_members": 5,
       "active_members": 5,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 20.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8603,8 +8597,8 @@
       "name": "光通訊",
       "source_members": 7,
       "active_members": 7,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 14.3,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8713,8 +8707,8 @@
       "name": "小網通",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 1,
-      "coverage_pct": 16.7,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8735,8 +8729,8 @@
       "name": "散熱",
       "source_members": 8,
       "active_members": 8,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 12.5,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -8999,8 +8993,8 @@
       "name": "遊戲相關",
       "source_members": 6,
       "active_members": 6,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 1,
+      "coverage_pct": 16.7,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
