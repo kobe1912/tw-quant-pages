@@ -2,19 +2,19 @@
   "schema_version": "3.0",
   "strategy_version": "research-v3-sinopac",
   "provider": "SINOPAC_SHIOAJI",
-  "asof": "2026-11-25",
-  "generated_at": "2026-11-26T03:30:53.396565+08:00",
+  "asof": "2026-11-26",
+  "generated_at": "2026-11-27T03:13:54.863621+08:00",
   "mode": "EOD_RESEARCH",
   "universe": 339,
-  "data_ready": 175,
-  "current_ready": 5,
+  "data_ready": 179,
+  "current_ready": 4,
   "execution_ready": 0,
   "sync": {
     "requests": 80,
     "max_requests": 80,
-    "initialized": 210,
+    "initialized": 216,
     "usage": {
-      "remaining_bytes": 515526592,
+      "remaining_bytes": 518872088,
       "limit_bytes": 524288000
     }
   },
@@ -775,20 +775,18 @@
       "groups": [
         "軍工"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-26",
+      "price": 108.0,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 114.85,
+      "rsi": 46.24,
+      "daily_return_pct": 3.8461538461538547,
       "signals": []
     },
     {
@@ -820,20 +818,17 @@
       "groups": [
         "軍工"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-26",
+      "price": 42.1,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 48.93,
+      "rsi": 40.67,
+      "daily_return_pct": 4.856787048567868,
       "signals": []
     },
     {
@@ -937,6 +932,7 @@
       "price": 74.7,
       "sample_days": 278,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -954,20 +950,18 @@
       "groups": [
         "美容美膚"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-26",
+      "price": 21.8,
+      "sample_days": 276,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 22.49,
+      "rsi": 44.09,
+      "daily_return_pct": 0.6928406466512715,
       "signals": []
     },
     {
@@ -1253,6 +1247,7 @@
       "price": 38.5,
       "sample_days": 278,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -1315,20 +1310,18 @@
       "groups": [
         "一般生技"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-26",
+      "price": 21.75,
+      "sample_days": 278,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 24.08,
+      "rsi": 37.38,
+      "daily_return_pct": 1.1627906976744207,
       "signals": []
     },
     {
@@ -1342,6 +1335,7 @@
       "price": 53.1,
       "sample_days": 278,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -1566,6 +1560,7 @@
       "price": 67.5,
       "sample_days": 278,
       "issues": [
+        "行情日期落後最新股票",
         "20日平均成交金額不足",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
@@ -5425,20 +5420,20 @@
       "groups": [
         "車用電池"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-02-26",
+      "price": 67.3,
+      "sample_days": 94,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：94/250根",
+        "行情日期落後最新股票",
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 66.72,
+      "rsi": 42.74,
+      "daily_return_pct": 0.14880952380951218,
       "signals": []
     },
     {
@@ -5868,6 +5863,7 @@
       "price": 132.0,
       "sample_days": 278,
       "issues": [
+        "行情日期落後最新股票",
         "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
@@ -7674,20 +7670,19 @@
       "groups": [
         "紡織"
       ],
-      "date": null,
-      "price": null,
-      "sample_days": 0,
+      "date": "2026-11-26",
+      "price": 9.65,
+      "sample_days": 246,
       "issues": [
-        "暖機不足：0/250根",
-        "缺少20日成交金額",
-        "除權息還原／交易日曆／交易狀態尚未校驗",
-        "永豐歷史行情尚未初始化"
+        "暖機不足：246/250根",
+        "20日平均成交金額不足",
+        "除權息還原／交易日曆／交易狀態尚未校驗"
       ],
       "provider": "SINOPAC_SHIOAJI",
-      "legacy_score": null,
-      "ma20": null,
-      "rsi": null,
-      "daily_return_pct": null,
+      "legacy_score": 0,
+      "ma20": 10.0,
+      "rsi": 38.32,
+      "daily_return_pct": -0.10351966873706209,
       "signals": []
     },
     {
@@ -8436,17 +8431,6 @@
   ],
   "sectors": [
     {
-      "name": "醫材",
-      "source_members": 1,
-      "active_members": 1,
-      "ready_members": 1,
-      "coverage_pct": 100.0,
-      "complete": true,
-      "average_return_pct": -3.295,
-      "above_ma20_pct": 0.0,
-      "candidate_count": 0
-    },
-    {
       "name": "ABF",
       "source_members": 3,
       "active_members": 3,
@@ -8593,8 +8577,8 @@
       "name": "一般生技",
       "source_members": 14,
       "active_members": 14,
-      "ready_members": 2,
-      "coverage_pct": 14.3,
+      "ready_members": 1,
+      "coverage_pct": 7.1,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -9011,8 +8995,8 @@
       "name": "車用PCB",
       "source_members": 5,
       "active_members": 5,
-      "ready_members": 1,
-      "coverage_pct": 20.0,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -9055,8 +9039,8 @@
       "name": "軍工",
       "source_members": 7,
       "active_members": 7,
-      "ready_members": 0,
-      "coverage_pct": 0.0,
+      "ready_members": 2,
+      "coverage_pct": 28.6,
       "complete": false,
       "average_return_pct": null,
       "above_ma20_pct": null,
@@ -9077,6 +9061,17 @@
       "name": "遊戲相關",
       "source_members": 6,
       "active_members": 6,
+      "ready_members": 0,
+      "coverage_pct": 0.0,
+      "complete": false,
+      "average_return_pct": null,
+      "above_ma20_pct": null,
+      "candidate_count": 0
+    },
+    {
+      "name": "醫材",
+      "source_members": 1,
+      "active_members": 1,
       "ready_members": 0,
       "coverage_pct": 0.0,
       "complete": false,
